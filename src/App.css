@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   color: #222;
+  max-width: 98%;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -37,13 +39,17 @@
     font-family: Helvetica Neue;
 }
 
+.react-sanfona-item {
+    margin-bottom: 0.5em;
+}
 .react-sanfona-item-expanded {
-    font-weight: 800;
+    font-weight: 300;
+    padding: 0.5em 0.5em 1em;
+    border-left: 4px solid #2c83cb;
 }
 
 .react-sanfona-item-expanded .react-sanfona-item-title {
-  background-color: orange;
-  color: #fff;
+  font-weight: 800;
 }
 
 
