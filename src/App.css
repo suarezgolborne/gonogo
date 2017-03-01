@@ -98,19 +98,22 @@ right: 1em;
 }
 
 .react-sanfona-item {
-    margin-bottom: 0.5em;
+    margin-bottom: 0em;
     color: #0096e1;
     font-weight: 800;
     font-size: 16px;
     padding-left: 1em;
+    background: #fefb01;
+    padding: 1em;
 }
 
 .react-sanfona-item-expanded {
     margin-left: -1em;
-    padding: 1em 1em 1em 2em;
-    width: calc(100% + 1em);
-    background: #0096e1;
-    color: #fefb01;
+        padding: 1em 1em 1em 2em;
+        width: calc(100% + 1em);
+        background: #0096e1;
+        color: #fefb01;
+            pointer-events: none;
 }
 
 .react-sanfona-item-expanded .react-sanfona-item-title {
@@ -118,7 +121,7 @@ right: 1em;
 }
 
 .react-sanfona-item:hover {
-    text-decoration: underline;
+        background: #eae832;
 }
 
 
