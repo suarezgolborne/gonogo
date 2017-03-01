@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-scripts": "0.9.3"
+    "react-scripts": "0.9.3",
+    "react-leaflet": "1.1.0",
+    "leaflet": "1.0.3"
   },
   "devDependencies": {
     "react-scripts": "0.9.3"
