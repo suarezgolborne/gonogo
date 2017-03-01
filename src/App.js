@@ -97,13 +97,15 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
           </div>
 
+<div className="location">{this.state.zone}</div>
 
 <div className="list">
+        <div className="chooseLocation">
+            <h2>Välj plats!
+                <span className="thefinger">☟</span>
+            </h2>
+        </div>
 
-         <h2>Välj din ort!</h2>
-             <div>
-                 <img src={arrow} className="arrow"/>
-             </div>
              <Accordion activeItems={this.state.slug} >
                 {zones.map((item, i) => {
 

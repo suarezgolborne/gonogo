@@ -30,6 +30,38 @@ position: absolute;
 top: 2.4em;
 right: 1em;
 }
+
+.thefinger {
+    text-shadow: 1px 1px 0px #0096e1, 2px 2px 0px #0096e1, 3px 2px 0px #0096e1;
+    font-size: 39px;
+    color: #fefb01;
+    position: relative;
+    top: 6px;
+}
+
+.chooseLocation {
+    position: absolute;
+    top: -2em;
+    height: 3em;
+    width: 260px;
+    left: 1em;
+    z-index: 23;
+    font-size: 16px;
+    color: #fefb01;
+    text-shadow: 3px 2px 0px #0096e1;
+}
+
+.location {
+    position: absolute;
+    z-index: 12;
+    font-size: 34px;
+    font-weight: 800;
+    top: 0em;
+    color: #fefb01;
+    text-shadow: 3px 2px 0px #0096e1;
+    right: 0.5em;
+}
+
 .map, .leaflet-container {
     max-width: 100%;
     margin: 0 auto;
@@ -44,17 +76,13 @@ right: 1em;
 
 .list {
     max-width: 320px;
-        border: 1px solid #ececec;
-        padding: 1em;
-        margin-top: 0.5em;
-        max-height: calc(100vh - 3em);
-        position: absolute;
-        z-index: 8;
-        background: #fefb01;
-        margin: 0.5em;
-        overflow: scroll;
-        min-width: 240px;
-        box-shadow: 2px 2px 14px rgba(51, 51, 51, 0.08);
+    max-height: calc(100vh - 3em);
+    position: absolute;
+    z-index: 8;
+    margin: 0.5em;
+    overflow: scroll;
+    min-width: 240px;
+    padding-top: 4em;
 }
 
 
@@ -62,6 +90,9 @@ right: 1em;
     display: none;
 }
 
+.chooseLocation:hover + .list > .react-sanfona {
+    display: block;
+}
 .list:hover > .react-sanfona {
     display: block;
 }
@@ -71,11 +102,12 @@ right: 1em;
     color: #0096e1;
     font-weight: 800;
     font-size: 16px;
+    padding-left: 1em;
 }
 
 .react-sanfona-item-expanded {
     margin-left: -1em;
-    padding: 1em;
+    padding: 1em 1em 1em 2em;
     width: calc(100% + 1em);
     background: #0096e1;
     color: #fefb01;
