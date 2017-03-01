@@ -24,6 +24,12 @@
   font-size: large;
 }
 
+.arrow {
+    width: 8.9%;
+position: absolute;
+top: 2.4em;
+right: 1em;
+}
 .map, .leaflet-container {
     max-width: 100%;
     margin: 0 auto;
@@ -41,18 +47,24 @@
         border: 1px solid #ececec;
         padding: 1em;
         margin-top: 0.5em;
-        height: calc(100vh - 3em);
+        max-height: calc(100vh - 3em);
         position: absolute;
         z-index: 8;
         background: #fefb01;
         margin: 0.5em;
         overflow: scroll;
+        min-width: 240px;
+        box-shadow: 2px 2px 14px rgba(51, 51, 51, 0.08);
 }
+
 
 .react-sanfona {
-    min-width: 240px;
+    display: none;
 }
 
+.list:hover > .react-sanfona {
+    display: block;
+}
 
 .react-sanfona-item {
     margin-bottom: 0.5em;
