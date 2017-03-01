@@ -7,8 +7,17 @@ import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
 
 class SSGMap extends React.Component {
 
+    componentDidUpdate() {
+        console.log(this.props, "map uppdate");
+    }
+    componentDidMount () {
+        console.log("cdm map", this.props);
+    }
+
+
     render() {
-    const position = [59.2873, 18.0351];
+    // const position = [59.2873, 18.0351];
+    const position = this.props.coordinates;
     const position2 = [59.2875, 18.0332];
     const map = (
       <Map center={position} zoom={16} zoomControl={false} minZoom={16} maxZoom={16}>

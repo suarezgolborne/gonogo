@@ -4,72 +4,109 @@ import './App.css';
 import SSGMap from './map.js';
 import { Accordion, AccordionItem } from 'react-sanfona';
 
+
+
+// "Hallunda/Norsborg, Botkyrka",
+// "Husby, Stockholm",
+// "Ronna/Geneta/Lina, Södertälje",
+// "Rinkeby/Tensta, Stockholm",
+// "Araby, Växjö",
+// "Rosengård söder om Amiralsgatan, Malmö",
+// "Södra Sofielund (Seved), Malmö",
+// "Bergsjön, Göteborg",
+// "Biskopsgården, Göteborg",
+// "Gårdsten, Göteborg",
+// "Hammarkullen",
+// "Hjällbo",
+// "Lövgärdet, Göteborg",
+// "Skäggetorp, Linköping",
+// "Oxhagen/Varberga, Örebro",
+// "Tjärna Ängar, Borlänge",
+// "Alby/Fittja, Botkyrka",
+// "Tureberg, Sollentuna",
+// "Adolfsberg/Dalhem/Drottninghög, Helsingborg",
+// "Hässleholmen/Hulta, Borås",
+// "Bäckby, Västerås",
+// "Gottsunda/Valsätra, Uppsala",
+// "Brandbergen, Haninge",
+// "Bredäng, Stockholm",
+// "Edsberg, Sollentuna",
+// "Finnsta, Upplands Väsby",
+// "Fornhöjden, Södertälje",
+// "Hagsätra/Rågsved, Stockholm",
+// "Hovsjö, Södertälje",
+// "Hässelby/Vällingby, Stockholm",
+// "Rissne/Hallonbergen, Sundbyberg",
+// "Skogås, Huddinge",
+// "Smedby, Upplands Väsby",
+// "Sångvägen, Järfälla",
+// "Smedby, Upplands Väsby",
+// "Sångvägen, Järfälla",
+// "Termovägen, Järfälla",
+// "Älvsjö/Solberga, Stockholm",
+// "Östberga, Stockholm",
+// "Charlottesborg, Kristianstad",
+// "Gamlegården, Kristianstad",
+// "Holma/Kroksbäck/Bellevue, Malmö",
+// "Koppargården, Landskrona",
+// "Andersberg, Halmstad",
+// "Falkagård, Falkenberg",
+// "Hisings Backa, Göteborg",
+// "Kronogården, Trollhättan",
+// "Rannebergen, Göteborg",
+// "Tynnered/Grevgården/Opaltorget, Västra Frölunda",
+// "Fröslunda, Eskilstuna",
+// "Hageby, Norrköping",
+// "Lagersberg, Eskilstuna",
+// "Råslätt, Jönköping",
+// "Skiftinge, Eskilstuna"];
+
 class App extends Component {
+
+    constructor(props, context) {
+      super(props, context)
+      this.state = {
+          zone: "Vivalla, Örebro",
+          coordinates: [59.2998949, 15.1869884],
+          description: "En beskrivning",
+          slug: 1
+      };
+    }
+
     componentDidUpdate() {
         console.log(this.state, "uppdate");
+
     }
     componentDidMount () {
         console.log("cdm", this.state);
     }
 
+    handleClick(item) {
+        this.setState({
+            coordinates: item.coordinates,
+            zone: item.zone,
+            description: item.description,
+            slug: item.slug
+        })
+    }
 
   render() {
 
-    let zones = ["Vivalla, Örebro",
-"Hallunda/Norsborg, Botkyrka",
-"Husby, Stockholm",
-"Ronna/Geneta/Lina, Södertälje",
-"Rinkeby/Tensta, Stockholm",
-"Araby, Växjö",
-"Rosengård söder om Amiralsgatan, Malmö",
-"Södra Sofielund (Seved), Malmö",
-"Bergsjön, Göteborg",
-"Biskopsgården, Göteborg",
-"Gårdsten, Göteborg",
-"Hammarkullen",
-"Hjällbo",
-"Lövgärdet, Göteborg",
-"Skäggetorp, Linköping",
-"Oxhagen/Varberga, Örebro",
-"Tjärna Ängar, Borlänge",
-"Alby/Fittja, Botkyrka",
-"Tureberg, Sollentuna",
-"Adolfsberg/Dalhem/Drottninghög, Helsingborg",
-"Hässleholmen/Hulta, Borås",
-"Bäckby, Västerås",
-"Gottsunda/Valsätra, Uppsala",
-"Brandbergen, Haninge",
-"Bredäng, Stockholm",
-"Edsberg, Sollentuna",
-"Finnsta, Upplands Väsby",
-"Fornhöjden, Södertälje",
-"Hagsätra/Rågsved, Stockholm",
-"Hovsjö, Södertälje",
-"Hässelby/Vällingby, Stockholm",
-"Rissne/Hallonbergen, Sundbyberg",
-"Skogås, Huddinge",
-"Smedby, Upplands Väsby",
-"Sångvägen, Järfälla",
-"Smedby, Upplands Väsby",
-"Sångvägen, Järfälla",
-"Termovägen, Järfälla",
-"Älvsjö/Solberga, Stockholm",
-"Östberga, Stockholm",
-"Charlottesborg, Kristianstad",
-"Gamlegården, Kristianstad",
-"Holma/Kroksbäck/Bellevue, Malmö",
-"Koppargården, Landskrona",
-"Andersberg, Halmstad",
-"Falkagård, Falkenberg",
-"Hisings Backa, Göteborg",
-"Kronogården, Trollhättan",
-"Rannebergen, Göteborg",
-"Tynnered/Grevgården/Opaltorget, Västra Frölunda",
-"Fröslunda, Eskilstuna",
-"Hageby, Norrköping",
-"Lagersberg, Eskilstuna",
-"Råslätt, Jönköping",
-"Skiftinge, Eskilstuna"];
+    let zones = [
+        {zone: "Vivalla, Örebro",
+         coordinates: [59.2998949, 15.1869884],
+         description: "En beskrivning",
+         slug: 1},
+         {zone: "Hallunda/Norsborg, Botkyrka",
+          coordinates: [59.2462, 17.8215],
+          description: "En beskrivning",
+          slug: 2},
+         {zone: "Husby, Stockholm",
+          coordinates: [59.41, 17.9263],
+          description: "En beskrivning",
+          slug: 3}
+       ];
+
 
     return (
       <div className="App">
@@ -81,20 +118,34 @@ class App extends Component {
             Fancy copy.
         </p>
 
-            <Accordion>
-                {zones.map((item) => {
+<div className="list">
+         <h2>Välj din ort!</h2>
+            <Accordion activeItems={this.state.slug} >
+                {zones.map((item, i) => {
+                    const shoulditbeactive = (item.slug === this.state.slug ? "h2" : "h3");
+
+                    console.log(shoulditbeactive);
+
                     return (
-                        <AccordionItem title={`${ item }`} slug={item} key={item}>
+                        <AccordionItem
+                            title={`${ item.zone }`}
+                            slug={item.slug}
+                            key={item.slug}
+                            onExpand={() => this.handleClick(item)}
+                            titleClassName={shoulditbeactive}
+                        >
                             <div>
-                                {`Item ${ item } content`}
-                                {item === 3 ? <p><img src="https://cloud.githubusercontent.com/assets/38787/8015584/2883817e-0bda-11e5-9662-b7daf40e8c27.gif" /></p> : null}
+                                {`Item ${ item.description } content`}
                             </div>
                         </AccordionItem>
+
                     );
                 })}
             </Accordion>
-            <div><SSGMap />
-                </div>
+            </div>
+            <div>
+                <SSGMap coordinates={this.state.coordinates}/>
+            </div>
 
       </div>
     );
