@@ -9,6 +9,7 @@ class SSGMap extends React.Component {
 
     render() {
     const position = [59.2873, 18.0351];
+    const position2 = [59.2875, 18.0332];
     const map = (
       <Map center={position} zoom={16} zoomControl={false} minZoom={16} maxZoom={16}>
         <TileLayer
@@ -23,7 +24,8 @@ class SSGMap extends React.Component {
             <span>Ett härligt tips.</span>
           </Popup>
         </Marker>
-        <Marker position={59.2875, 18.0332}>
+
+        <Marker position={position2}>
           <Popup>
             <span>Ännu ett härligt tips.</span>
           </Popup>
