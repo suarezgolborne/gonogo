@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './heyho.jpg';
+import logo from './logo.png';
 import './App.css';
 import SSGMap from './map.js';
 import { Accordion, AccordionItem } from 'react-sanfona';
@@ -110,15 +110,13 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Let's Go No-Go</h2>
-        </div>
-        <p className="App-intro">
-            Fancy copy.
-        </p>
+          <div className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
+
 
 <div className="list">
+
          <h2>Välj din ort!</h2>
             <Accordion activeItems={this.state.slug} >
                 {zones.map((item, i) => {
@@ -143,9 +141,8 @@ class App extends Component {
                 })}
             </Accordion>
             </div>
-            <div>
-                <SSGMap coordinates={this.state.coordinates}/>
-            </div>
+            <SSGMap coordinates={this.state.coordinates}/>
+
 
       </div>
     );
