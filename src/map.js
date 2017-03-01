@@ -23,6 +23,12 @@ class SSGMap extends React.Component {
             <span>Ett härligt tips.</span>
           </Popup>
         </Marker>
+        <Marker position={59.2875, 18.0332}>
+          <Popup>
+            <span>Ännu ett härligt tips.</span>
+          </Popup>
+        </Marker>
+
       </Map>
     );
 
