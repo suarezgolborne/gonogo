@@ -81,6 +81,7 @@ right: 1em;
 .teaser-container {
     padding: 0;
     list-style-type: none;
+    display: table;
 }
 
 .teaser {
@@ -94,8 +95,8 @@ right: 1em;
         padding: 1em;
         color: #0096e1;
         font-weight: 800;
-        display: table;
         white-space: nowrap;
+                display: table;
 }
 
 
