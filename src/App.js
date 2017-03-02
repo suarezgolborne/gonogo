@@ -92,18 +92,31 @@ class App extends Component {
 
 
     return (
-      <div className="App">
-          <div className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-          </div>
+    <div className="App">
+    <div className="App-header">
+    <img src={logo} className="App-logo" alt="logo" />
+    </div>
 
-<div className="location">{this.state.zone}</div>
+          <div className="location">
+                	<div className="location-title">{this.state.zone}</div>
+              	<div >
+                    <span className="mediumText">Missa inte detta:</span>
+                	</div>
+              	<div >
+                    <ul className="teaser-container">
+              	      <li className="teaser">1. Grej</li>
+                       <li className="teaser">2. Annan grej</li>
+                    </ul>
+                	</div>
+
+          	      </div>
+
 
 <div className="list">
-        <div className="chooseLocation">
-            <h2>Välj plats!
+        <div className="chooseLocation mediumText   ">
+            <span>Välj plats!
                 <span className="thefinger">☟</span>
-            </h2>
+            </span>
         </div>
 
              <Accordion activeItems={this.state.slug} >

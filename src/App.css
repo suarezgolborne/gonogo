@@ -39,28 +39,66 @@ right: 1em;
     top: 6px;
 }
 
-.chooseLocation {
-    position: absolute;
-    top: -2em;
-    height: 3em;
-    width: 260px;
-    left: 6em;
-    z-index: 23;
-    font-size: 16px;
+.mediumText {
+    font-size: 1.5em;
+    font-weight: 800;
     color: #fefb01;
     text-shadow: 3px 2px 0px #0096e1;
 }
 
+.chooseLocation {
+    position: absolute;
+        top: -0.9em;
+        height: 3em;
+        width: 260px;
+        left: 5em;
+        z-index: 23;
+}
+
 .location {
     position: absolute;
-    z-index: 12;
-    font-size: 34px;
-    font-weight: 800;
+    z-index: 3;
     top: 0.2em;
-    color: #fefb01;
-    text-shadow: 3px 2px 0px #0096e1;
     left: 0.5em;
 }
+
+.location-title {
+    position:relative;
+    font-size: 34px;
+    font-weight: 800;
+    color: #fefb01;
+    text-shadow: 3px 2px 0px #0096e1;
+        margin-bottom: 1em;
+}
+
+.featurecontainer {
+
+}
+
+.todo {
+}
+
+.teaser-container {
+    padding: 0;
+    list-style-type: none;
+}
+
+.teaser {
+    width: 11em;
+        height: 86%;
+        margin-right: 0.5em;
+        float: left;
+        box-shadow: 3px 3px 0px #0096e1;
+        background: #fefb01;
+        margin-bottom: 0.5em;
+        padding: 1em;
+        color: #0096e1;
+        font-weight: 800;
+        display: table;
+        white-space: nowrap;
+}
+
+
 
 .map, .leaflet-container {
     max-width: 100%;
@@ -77,7 +115,7 @@ right: 1em;
     max-width: 320px;
     max-height: calc(100vh - 3em);
     position: absolute;
-    z-index: 8;
+    z-index: 12;
     margin: 0.5em;
     overflow: scroll;
     min-width: 240px;
@@ -136,28 +174,7 @@ h3 {
 }
 
 
-.teasercontainer {
-    position: absolute;
-    top: 5em;
-    z-index: 12;
-    width: 13em;
-    height: 8em;
-    padding: 0.5em;
-    LEFT: 1EM;
-}
 
-.teaser {
-    width: 11em;
-        height: 86%;
-        margin-right: 0.5em;
-        float: left;
-        box-shadow: 3px 3px 0px #0096e1;
-        background: #fefb01;
-        margin-bottom: 0.5em;
-        padding: 1em;
-        color: #0096e1;
-        font-weight: 800;
-}
 
 
 @keyframes App-logo-spin {
