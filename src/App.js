@@ -60,7 +60,7 @@ import zones from './zones.json';
 // "Hageby, Norrköping",
 // "Lagersberg, Eskilstuna",
 // "Råslätt, Jönköping",
-// "Skiftinge, Eskilstuna"];
+
 
 class App extends Component {
 

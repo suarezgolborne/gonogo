@@ -3,20 +3,22 @@
     "coordinates": [59.2998949, 15.1869884],
     "description": "En beskrivning",
     "slug": 1},
-    {"zone": "Hallunda, Botkyrka",
-    "coordinates": [59.2462, 17.8215],
+    {"zone": "Hallunda/Norsborg, Botkyrka",
+    "coordinates": [59.248, 17.8147],
     "description": "En beskrivning",
     "slug": 2},
     {"zone": "Husby, Stockholm",
     "coordinates": [59.41, 17.9263],
     "description": "En beskrivning",
     "slug": 3},
-    {"zone": "Norsborg, Botkyrka",
-    "coordinates": [59.2511, 17.8051],
-    "description": "En beskrivning",
-    "slug": 4},
     {"zone": "Ronna/Geneta/Lina, Södertälje",
     "coordinates": [59.2019, 17.5909],
     "description": "En beskrivning",
-    "slug": 5}
+    "slug": 5},
+    {"zone": "Skiftinge, Eskilstuna",
+    "coordinates": [59.3899157, 16.5380671],
+    "description": "En beskrivning",
+    "slug": 6}
+
+
 ]
