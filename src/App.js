@@ -1,139 +1,120 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
-import arrow from './arrow.svg';
 import './App.css';
 import SSGMap from './map.js';
-import { Accordion, AccordionItem } from 'react-sanfona';
 import zones from './zones.json';
-// import { Accordion, AccordionItem } from './accordion';
+import contentful from 'contentful';
+
+var SPACE_ID = '2jlq09u4u7om'
+var ACCESS_TOKEN = '3981a9e25d1b70b9d7f306b9837903cc4c5e14e2671c66d33f552e9319b7e661'
 
 
-
-
-// "Rinkeby/Tensta, Stockholm",
-// "Araby, Växjö",
-// "Rosengård söder om Amiralsgatan, Malmö",
-// "Södra Sofielund (Seved), Malmö",
-// "Bergsjön, Göteborg",
-// "Biskopsgården, Göteborg",
-// "Gårdsten, Göteborg",
-// "Hammarkullen",
-// "Hjällbo",
-// "Lövgärdet, Göteborg",
-// "Skäggetorp, Linköping",
-// "Oxhagen/Varberga, Örebro",
-// "Tjärna Ängar, Borlänge",
-// "Alby/Fittja, Botkyrka",
-// "Tureberg, Sollentuna",
-// "Adolfsberg/Dalhem/Drottninghög, Helsingborg",
-// "Hässleholmen/Hulta, Borås",
-// "Bäckby, Västerås",
-// "Gottsunda/Valsätra, Uppsala",
-// "Brandbergen, Haninge",
-// "Bredäng, Stockholm",
-// "Edsberg, Sollentuna",
-// "Finnsta, Upplands Väsby",
-// "Fornhöjden, Södertälje",
-// "Hagsätra/Rågsved, Stockholm",
-// "Hovsjö, Södertälje",
-// "Hässelby/Vällingby, Stockholm",
-// "Rissne/Hallonbergen, Sundbyberg",
-// "Skogås, Huddinge",
-// "Smedby, Upplands Väsby",
-// "Sångvägen, Järfälla",
-// "Smedby, Upplands Väsby",
-// "Sångvägen, Järfälla",
-// "Termovägen, Järfälla",
-// "Älvsjö/Solberga, Stockholm",
-// "Östberga, Stockholm",
-// "Charlottesborg, Kristianstad",
-// "Gamlegården, Kristianstad",
-// "Holma/Kroksbäck/Bellevue, Malmö",
-// "Koppargården, Landskrona",
-// "Andersberg, Halmstad",
-// "Falkagård, Falkenberg",
-// "Hisings Backa, Göteborg",
-// "Kronogården, Trollhättan",
-// "Rannebergen, Göteborg",
-// "Tynnered/Grevgården/Opaltorget, Västra Frölunda",
-// "Fröslunda, Eskilstuna",
-// "Hageby, Norrköping",
-// "Lagersberg, Eskilstuna",
-// "Råslätt, Jönköping",
-
+var client = contentful.createClient({
+  space: SPACE_ID,
+  accessToken: ACCESS_TOKEN
+})
 
 class App extends Component {
 
     constructor(props, context) {
       super(props, context)
 
-      let randomStart = Math.floor(Math.random()*5);
+      let randomStart = Math.floor(Math.random()*2);
 
       this.state = {
           zone: zones[randomStart].zone,
           coordinates: zones[randomStart].coordinates,
           description: zones[randomStart].description,
-          slug: randomStart + 1
+          slug: randomStart + 1,
+          data: 'data',
+          zones: []
       };
     }
 
+    componentDidMount() {
 
-    handleClick(item) {
-        this.setState({
-            coordinates: item.coordinates,
-            zone: item.zone,
-            description: item.description,
-            slug: item.slug
-        })
+        client.getEntries({
+            'content_type': '6XwpTaSiiI2Ak2Ww0oi6qa'
+            }
+        )
+                  .then((response) => {
+                      this.setState({zones: response.items});
+                  })
+                  .catch((error) => {
+                    console.log('Error occured')
+                    console.log(error)
+                  })
     }
+
+    // handleClick(item) {
+    //     this.setState({
+    //         coordinates: item.coordinates,
+    //         zone: item.zone,
+    //         description: item.description,
+    //         slug: item.slug
+    //     })
+    // }
+
+    handleClick(zone) {
+        this.setState({
+            coordinates: [zone.fields.zoneCoordinates.lat, zone.fields.zoneCoordinates.lon],
+            zone: zone.fields.title,
+            description: zone.fields.categoryDescription
+        })
+
+
+    }
+
+
 
   render() {
 
-
-
     return (
     <div className="App">
-    <div className="App-header">
-    <img src={logo} className="App-logo" alt="logo" />
-    </div>
-
-          <div className="location">
-                	<div className="location-title">{this.state.zone}</div>
-              	<div >
-                    <span className="mediumText">Missa inte detta:</span>
-                	</div>
-              	<div >
-                    <ul className="teaser-container">
-              	      <li className="teaser">1. Grej</li>
-                       <li className="teaser">2. Annan grej</li>
-                    </ul>
-                	</div>
-
-          	      </div>
-
-
-<div className="list">
-        <div className="chooseLocation mediumText   ">
-            <span>Välj plats!
-                <span className="thefinger">☟</span>
-            </span>
+        <div className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
         </div>
 
-             <Accordion activeItems={this.state.slug} >
-                {zones.map((item, i) => {
+        <div className="location">
+            <div className="location-title">
+                {this.state.zone}, {this.state.description}
+            </div>
+            <div >
+                <span className="mediumText">Missa inte detta:</span>
+            </div>
+            <div >
+                <ul className="teaser-container">
+                    <li className="teaser">1. Grej</li>
+                    <li className="teaser">2. Annan grej</li>
+                </ul>
+            </div>
+        </div>
 
-                    return (
-                        <AccordionItem
-                            title={`${ item.zone }`}
-                            slug={item.slug}
-                            key={item.slug}
-                            onExpand={() => this.handleClick(item)}
-                        >
-                        </AccordionItem>
 
-                    );
-                })}
-            </Accordion>
+
+        <div className="list">
+            <div className="chooseLocation mediumText   ">
+                <span>Välj plats!
+                    <span className="thefinger">☟</span>
+                </span>
+            </div>
+
+        <div className="react-sanfona">
+            <ul className="zonelist">
+            {this.state.zones.map((zone, i) =>
+               <li className="react-sanfona-item" key={i} onClick={() => this.handleClick(zone)}>
+                   <div className="zonetitle regularText">
+                       <span>{zone.fields.title}</span>
+                   </div>
+                   <div className="zonedescription regularText">
+                       <span>{zone.fields.categoryDescription}</span>
+                   </div>
+                </li>
+
+             )}
+             </ul>
+         </div>
+
             </div>
             <SSGMap coordinates={this.state.coordinates}/>
 

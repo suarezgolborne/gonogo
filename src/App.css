@@ -3,10 +3,14 @@
   color: #222;
   margin: 0 auto;
   text-align: left;
-  font-size: 14px;
-  font-weight: 100;
   font-family: Helvetica Neue;
 }
+
+.regularText {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 
 .App-logo {
   animation: App-logo-spin forwards 0.6s linear;
@@ -47,12 +51,16 @@ right: 1em;
 }
 
 .chooseLocation {
-    position: absolute;
-        top: -0.9em;
-        height: 3em;
-        width: 260px;
-        left: 5em;
-        z-index: 23;
+    width: 255px;
+    z-index: 23;
+    text-align: right;
+    position: fixed;
+    top: -0.5em;
+    right: 0em;
+}
+
+.chooseLocation:hover {
+    background: #fefb01;
 }
 
 .location {
@@ -117,18 +125,42 @@ right: 1em;
     max-height: calc(100vh - 3em);
     position: absolute;
     z-index: 12;
-    margin: 0.5em;
+    margin: 0;
     overflow: scroll;
     min-width: 240px;
-    padding-top: 4em;
-    right: 0.5em;
+    right: 0;
+    padding-top: 2.9em;
+    width: 270px;
 }
 
+.list:hover {
+    display: block;
+}
 
+.list:hover > .chooseLocation {
+    background: #fefb01;
+}
 
+.zonelist {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+}
+
+.zonetitle {
+    font-weight: 800;
+
+}
+
+.zonedescription {
+    font-size: 12px;
+    font-weight: 400;
+}
 
 .react-sanfona {
     display: none;
+    width: 255px;
+    float: right;
 }
 
 .chooseLocation:hover + .list > .react-sanfona {
@@ -162,7 +194,8 @@ right: 1em;
 }
 
 .react-sanfona-item:hover {
-        background: #eae832;
+        background: #0096e1;
+        color: #fefb01;
 }
 
 
