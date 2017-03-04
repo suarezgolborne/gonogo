@@ -46,7 +46,7 @@ class App extends Component {
                   })
     }
 
-    handleClick(zone) {
+    handleZoneClick(zone) {
         this.setState({
             coordinates: [zone.fields.zoneCoordinates.lat, zone.fields.zoneCoordinates.lon],
             zone: zone.fields.title,
@@ -66,6 +66,13 @@ class App extends Component {
                     console.log('Error occured')
                     console.log(error)
                   })
+    }
+
+    handleTipClick(tip) {
+        this.setState({
+            coordinates: [tip.fields.tipCoordinates.lat, tip.fields.tipCoordinates.lon]
+        })
+
     }
 
 
@@ -96,7 +103,7 @@ class App extends Component {
             <div >
                 <ul className="teaser-container">
                     {this.state.tips.map((tip, i) =>
-                        <li className="teaser" key={i}>{i+1}. {tip.fields.tipTitle}
+                        <li className="teaser" key={i}  onClick={() => this.handleTipClick(tip)}>{i+1}. {tip.fields.tipTitle}
                         </li>
                     )}
                 </ul>
@@ -115,7 +122,7 @@ class App extends Component {
         <div className="react-sanfona">
             <ul className="zonelist">
             {this.state.zones.map((zone, i) =>
-               <li className="react-sanfona-item" key={i} onClick={() => this.handleClick(zone)}>
+               <li className="react-sanfona-item" key={i} onClick={() => this.handleZoneClick(zone)}>
                    <div className="zonetitle regularText">
                        <span>{zone.fields.title}</span>
                    </div>
