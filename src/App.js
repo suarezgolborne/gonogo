@@ -113,7 +113,7 @@ class App extends Component {
 
                                     {tip.fields.tipPic !== undefined ?
                                     <div className="tipImage-container">
-                                        <img className="tipImage" src={`${tip.fields.tipPic.fields.file.url}?fit=crop&w=425&h=250` } alt={tip.fields.tipPic.fields.title}></img>
+                                        <img className="tipImage" src={`${tip.fields.tipPic.fields.file.url}?fit=crop&w=425&h=178` } alt={tip.fields.tipPic.fields.title}></img>
                                     </div>
                                      : false}
 
