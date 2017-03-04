@@ -69,6 +69,7 @@ right: 1em;
         position: absolute;
         z-index: 12;
         overflow: scroll;
+        min-width: 420px;
 }
 
 .location-title {
