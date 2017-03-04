@@ -68,8 +68,13 @@ right: 1em;
         max-height: 100vh;
         position: absolute;
         z-index: 12;
-        overflow: scroll;
+        overflow: auto;
         min-width: 420px;
+
+}
+
+.location::-webkit-scrollbar, .list::-webkit-scrollbar  {
+    display: none;
 }
 
 .location-title {
@@ -168,7 +173,7 @@ margin-left: -1em;
     position: absolute;
     z-index: 12;
     margin: 0;
-    overflow: scroll;
+    overflow: auto;
     min-width: 240px;
     right: 0;
     padding-top: 2.9em;
