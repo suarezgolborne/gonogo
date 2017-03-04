@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "contentful": "3.8.1",
     "leaflet": "1.0.3",
     "react": "^15.4.2",
     "react-cardstack": "^0.1.1",
@@ -10,7 +11,7 @@
     "react-leaflet": "1.1.0",
     "react-sanfona": "^0.1.0",
     "react-scripts": "0.9.3",
-    "contentful": "3.8.1"
+    "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "react-scripts": "0.9.3"

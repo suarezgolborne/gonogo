@@ -11,25 +11,41 @@ var CONTENTFUL_TOKEN = '7a85b6fb0a21b9c45944ae50caccb86f69e56f006f9b1b0fd130bc45
 class SSGPost extends React.Component {
 
     componentDidMount() {
-
-        const body2 = {
-            tipTitle: 'Testpost1',
-            tipDescription: 'frfrg',
-            tipAdress: 'giigo',
-            tipZone: 'hohoho'
-        };
-
         var data = new FormData();
-        data.append( "json", JSON.stringify( body2 ) );
+        data.append( "json", JSON.stringify({
+                tipTitle: 'Testpost1',
+                tipDescription: 'frfrg',
+                tipAdress: 'giigo',
+                tipZone: 'hohoho'} ));
 
-        fetch('https://script.google.com/macros/s/AKfycbzdAReQnTLxcALfcOdY2dnY8qXA9ba8DOwFNJVAwCw01EvA_po/exec', {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: data
-            })
+        fetch('https://script.google.com/macros/s/AKfycbym6knzku1ba-YULwRc7ete5i0RKrkFaqBTzFJVTm7586Krimw/exec', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+          },
+          body: {"tipZone":["ijojoijuoi"],"tipDescription":["fefe"],"tipAdress":["ergwe"],"tipTitle":["se"]}
+        })
+
+
+        // const body2 = {
+        //     tipTitle: 'Testpost1',
+        //     tipDescription: 'frfrg',
+        //     tipAdress: 'giigo',
+        //     tipZone: 'hohoho'
+        // };
+        //
+        // var data = new FormData();
+        // data.append( "json", JSON.stringify( body2 ) );
+        //
+        // fetch('https://script.google.com/macros/s/AKfycbzdAReQnTLxcALfcOdY2dnY8qXA9ba8DOwFNJVAwCw01EvA_po/exec', {
+        //     method: 'POST',
+        //     headers: {
+        //         'Accept': 'application/json',
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: data
+        //     })
     }
 
     // sendForm(){
@@ -73,7 +89,7 @@ class SSGPost extends React.Component {
 
 
 
-            <form onSubmit={this.sendForm}>
+            <form method="POST" action="https://script.google.com/macros/s/AKfycbym6knzku1ba-YULwRc7ete5i0RKrkFaqBTzFJVTm7586Krimw/exec" >
                 <div>
                     <label>Namn på ställe</label>
                     <input type="text" name="tipTitle" placeholder="First Name"/>

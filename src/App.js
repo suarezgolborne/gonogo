@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.png';
 import './App.css';
 import SSGMap from './map.js';
-import SSGPost from './post.js';
+// import SSGPost from './post.js';
 import zones from './zones.json';
 import contentful from 'contentful';
 
@@ -166,7 +166,7 @@ class App extends Component {
             </div>
             <SSGMap coordinates={this.state.coordinates} tips={this.state.tips}/>
 
-            <SSGPost />
+
 
 
       </div>
