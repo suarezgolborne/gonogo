@@ -19,19 +19,18 @@ class SSGMap extends React.Component {
 
         />
 
-    {hasTips ?
-        
-        <Marker closeButton={false} position={markerPosition}  title={this.props.tips["0"].fields.tipTitle} >
+
+        {this.props.tips.map((tips, i) =>
+        <Marker key={i} closeButton={false} position={[tips.fields.tipCoordinates.lat, tips.fields.tipCoordinates.lon]}  title={this.props.tips["0"].fields.tipTitle} >
               <Popup>
-                  <span>{this.props.tips["0"].fields.tipTitle}</span>
+                  <span>{tips.fields.tipTitle}</span>
               </Popup>
-            </Marker>
+        </Marker>
+        )}
 
-
-          :
-          false }
 
       </Map>
+
     );
 
   return (

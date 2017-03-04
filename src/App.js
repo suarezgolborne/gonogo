@@ -105,7 +105,27 @@ class App extends Component {
                     {this.state.tips.map((tip, i) =>
                         <li key={i}  onClick={() => this.handleTipClick(tip)}>
                             <div className="tipTitle">{i+1}. {tip.fields.tipTitle}</div>
-                            <div className="tipDescription">{tip.fields.tipDescription}</div>
+                            <div className="tipDescription">
+
+                                    <div className="tipDescription-text">{tip.fields.tipDescription}
+                                    </div>
+
+
+                                    {tip.fields.tipPic !== undefined ?
+                                    <div className="tipImage-container">
+                                        <img className="tipImage" src={`${tip.fields.tipPic.fields.file.url}?fit=crop&w=425&h=250` } alt={tip.fields.tipPic.fields.title}></img>
+                                    </div>
+                                     : false}
+
+                                    <div className="tipAdress">{tip.fields.tipAdress}
+                                    </div>
+                </div>
+
+
+
+
+
+
                         </li>
                     )}
                 </ul>
@@ -129,7 +149,12 @@ class App extends Component {
                        <span>{zone.fields.title}</span>
                    </div>
                    <div className="zonedescription regularText">
-                       <span>{zone.fields.categoryDescription}</span>
+
+                       <span>
+
+{zone.fields.categoryDescription}
+</span>
+
                    </div>
                 </li>
 
