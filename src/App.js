@@ -101,9 +101,11 @@ class App extends Component {
             }
 
             <div >
-                <ul className="teaser-container">
+                <ul className="tipContainer">
                     {this.state.tips.map((tip, i) =>
-                        <li className="teaser" key={i}  onClick={() => this.handleTipClick(tip)}>{i+1}. {tip.fields.tipTitle}
+                        <li key={i}  onClick={() => this.handleTipClick(tip)}>
+                            <div className="tipTitle">{i+1}. {tip.fields.tipTitle}</div>
+                            <div className="tipDescription">{tip.fields.tipDescription}</div>
                         </li>
                     )}
                 </ul>
