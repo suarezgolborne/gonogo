@@ -26,7 +26,7 @@ class App extends Component {
           coordinates: zones[randomStart].coordinates,
           description: zones[randomStart].description,
           slug: randomStart + 1,
-          data: 'data',
+          tips: [],
           zones: []
       };
     }
@@ -46,15 +46,6 @@ class App extends Component {
                   })
     }
 
-    // handleClick(item) {
-    //     this.setState({
-    //         coordinates: item.coordinates,
-    //         zone: item.zone,
-    //         description: item.description,
-    //         slug: item.slug
-    //     })
-    // }
-
     handleClick(zone) {
         this.setState({
             coordinates: [zone.fields.zoneCoordinates.lat, zone.fields.zoneCoordinates.lon],
@@ -62,12 +53,28 @@ class App extends Component {
             description: zone.fields.categoryDescription
         })
 
+        client.getEntries({
+            'content_type': 'tips',
+            'fields.tipZone.sys.id': zone.sys.id
+        }
+        )
 
+                  .then((response) => {
+                      this.setState({tips: response.items});
+                  })
+                  .catch((error) => {
+                    console.log('Error occured')
+                    console.log(error)
+                  })
     }
 
 
 
+
+
+
   render() {
+    const dontMiss = this.state.tips.length > 0;
 
     return (
     <div className="App">
@@ -79,13 +86,19 @@ class App extends Component {
             <div className="location-title">
                 {this.state.zone}, {this.state.description}
             </div>
-            <div >
-                <span className="mediumText">Missa inte detta:</span>
-            </div>
+
+            {dontMiss ?
+                <div >
+                    <span className="mediumText">Missa inte detta:</span>
+                </div> : false
+            }
+
             <div >
                 <ul className="teaser-container">
-                    <li className="teaser">1. Grej</li>
-                    <li className="teaser">2. Annan grej</li>
+                    {this.state.tips.map((tip, i) =>
+                        <li className="teaser" key={i}>{i+1}. {tip.fields.tipTitle}
+                        </li>
+                    )}
                 </ul>
             </div>
         </div>
@@ -116,7 +129,7 @@ class App extends Component {
          </div>
 
             </div>
-            <SSGMap coordinates={this.state.coordinates}/>
+            <SSGMap coordinates={this.state.coordinates} tips={this.state.tips}/>
 
 
       </div>
