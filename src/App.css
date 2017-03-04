@@ -208,7 +208,28 @@ h3 {
 }
 
 
+.leaflet-popup {
+    margin-bottom: 30px;
+}
 
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: #fefb01;
+    color: #0096e1;
+    box-shadow: 3px 3px;
+    border-radius: 0;
+}
+
+.leaflet-fade-anim .leaflet-popup {
+    opacity: 0;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.leaflet-popup-close-button {
+    display: none;
+}
 
 
 @keyframes App-logo-spin {

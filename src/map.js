@@ -11,7 +11,6 @@ class SSGMap extends React.Component {
     const mapPosition = this.props.coordinates;
     const markerPosition = hasTips ? [this.props.tips["0"].fields.tipCoordinates.lat, this.props.tips["0"].fields.tipCoordinates.lon] : false;
 
-    console.log(markerPosition, mapPosition);
 
     const map = (
       <Map center={mapPosition} zoom={15} zoomControl={false} minZoom={15} maxZoom={15}>
@@ -21,11 +20,13 @@ class SSGMap extends React.Component {
         />
 
     {hasTips ?
-        <Marker position={markerPosition}>
+        
+        <Marker closeButton={false} position={markerPosition}  title={this.props.tips["0"].fields.tipTitle} >
               <Popup>
                   <span>{this.props.tips["0"].fields.tipTitle}</span>
               </Popup>
             </Marker>
+
 
           :
           false }
