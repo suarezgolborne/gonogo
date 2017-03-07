@@ -11,21 +11,23 @@ var CONTENTFUL_TOKEN = '7a85b6fb0a21b9c45944ae50caccb86f69e56f006f9b1b0fd130bc45
 class SSGPost extends React.Component {
 
     componentDidMount() {
-        var data = new FormData();
-        data.append( "json", JSON.stringify({
-                tipTitle: 'Testpost1',
-                tipDescription: 'frfrg',
-                tipAdress: 'giigo',
-                tipZone: 'hohoho'} ));
 
-        fetch('https://script.google.com/macros/s/AKfycbym6knzku1ba-YULwRc7ete5i0RKrkFaqBTzFJVTm7586Krimw/exec', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json',
-          },
-          body: {"tipZone":["ijojoijuoi"],"tipDescription":["fefe"],"tipAdress":["ergwe"],"tipTitle":["se"]}
-        })
+        this.sendForm();
+        // var data = new FormData();
+        // data.append( "json", JSON.stringify({
+        //         tipTitle: 'Testpost1',
+        //         tipDescription: 'frfrg',
+        //         tipAdress: 'giigo',
+        //         tipZone: 'hohoho'} ));
+        //
+        // fetch('https://script.google.com/macros/s/AKfycbym6knzku1ba-YULwRc7ete5i0RKrkFaqBTzFJVTm7586Krimw/exec', {
+        //   method: 'POST',
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //     'Accept': 'application/json',
+        //   },
+        //   body: {"tipZone":["ijojoijuoi"],"tipDescription":["fefe"],"tipAdress":["ergwe"],"tipTitle":["se"]}
+        // })
 
 
         // const body2 = {
@@ -62,26 +64,26 @@ class SSGPost extends React.Component {
 
     sendForm(){
 
-            console.log("sendForm");
+            // const body = JSON.stringify({"tipZone":["ijojoijuoi"],"tipDescription":["fefe"],"tipAdress":["ergwe"],"tipTitle":["se"]}) ;
+
+            const body = JSON.stringify(this.props.tips[0].fields) ;
+
+            fetch(CONTENTFUL_POST_URL, {
+                method: 'POST',
+                headers: {
+                    'X-Contentful-Content-Type': 'tips',
+                    'Content-Type': 'application/vnd.contentful.management.v1+json',
+                    'Authorization': 'Bearer ' + CONTENTFUL_TOKEN,
+                    'Content-Length': body.length,
+                },
+                params: {type: 'entries', id: 'tips', space: '2jlq09u4u7om'},
+                body: body
+            });
 
 
 
 
-            // fetch('https://docs.google.com/spreadsheets/d/1bqf54fA-Ol0rrjvW9I3qnb4BR0tjOOLYD9k4FUEtavU/edit#gid=0', {
-            //     method: 'POST',
-            //     headers: {
-            //         'X-Contentful-Content-Type': 'tips',
-            //         'Content-Type': 'application/vnd.contentful.management.v1+json',
-            //         'Authorization': 'Bearer ' + CONTENTFUL_TOKEN,
-            //         'Content-Length': body.length,
-            //     },
-            //     body: body
-            // });
-
-
-
-
-}
+        }
 
     render() {
         return (

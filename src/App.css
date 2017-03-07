@@ -6,6 +6,10 @@
   font-family: Helvetica Neue;
 }
 
+a {
+    text-decoration: none;
+}
+
 .regularText {
     font-size: 14px;
     font-weight: 400;
@@ -145,13 +149,15 @@ right: 1em;
     width: calc(100% + 2em);
 padding-top: 1em;
 margin-left: -1em;
+    padding-bottom: 45.9%;
 }
 
 .tipImage {
     width: 100%;
+    position: absolute;
 }
 
-.tipAdress {
+.tipAddress {
     font-size: 12px;
     padding-top: 1em;
 }
@@ -204,20 +210,20 @@ margin-left: -1em;
     font-weight: 400;
 }
 
-.react-sanfona {
+.zonelist-container {
     display: none;
     width: 255px;
     float: right;
 }
 
-.chooseLocation:hover + .list > .react-sanfona {
+.chooseLocation:hover + .list > .zonelist-container  {
     display: block;
 }
-.list:hover > .react-sanfona {
+.list:hover > .zonelist-container  {
     display: block;
 }
 
-.react-sanfona-item {
+.zonelist-item {
     margin-bottom: 0em;
     color: #0096e1;
     font-weight: 800;
@@ -240,7 +246,7 @@ margin-left: -1em;
   font-weight: 800;
 }
 
-.react-sanfona-item:hover {
+.zonelist-item:hover {
         background: #0096e1;
         color: #fefb01;
 }

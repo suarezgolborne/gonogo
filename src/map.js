@@ -6,10 +6,10 @@ class SSGMap extends React.Component {
 
 
     render() {
-    const hasTips = this.props.tips.length > 0;
+    // const hasTips = this.props.tips.length > 0;
 
     const mapPosition = this.props.coordinates;
-    const markerPosition = hasTips ? [this.props.tips["0"].fields.tipCoordinates.lat, this.props.tips["0"].fields.tipCoordinates.lon] : false;
+    // const markerPosition = hasTips ? [this.props.tips["0"].fields.tipCoordinates.lat, this.props.tips["0"].fields.tipCoordinates.lon] : false;
 
 
     const map = (

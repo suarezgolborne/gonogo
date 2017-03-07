@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import AppStart from './appstart';
 import './index.css';
 
 
 ReactDOM.render(
-  <App />,
+  <AppStart />,
   document.getElementById('root')
 );
