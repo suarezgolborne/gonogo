@@ -1,4 +1,3 @@
-
 {
   "sys": {
     "type": "Array"
@@ -16,747 +15,11 @@
             "id": "2jlq09u4u7om"
           }
         },
-        "id": "51AWB4gffGaIaCSuMm0c8O",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:18:27.454Z",
-        "updatedAt": "2017-03-03T13:18:27.454Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Finnsta",
-        "categoryDescription": "Upplands Väsby",
-        "zoneCoordinates": {
-          "lon": 17.6502,
-          "lat": 59.5183
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "3WPxFkpOLKCmQGSgaOMW2W",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:56:02.870Z",
-        "updatedAt": "2017-03-03T12:56:02.870Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Tjärna ängar",
-        "categoryDescription": "Borlänge",
-        "zoneCoordinates": {
-          "lon": 15.40201,
-          "lat": 60.49365
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "5BYWKQJ1xCWqgwSQoEcyMK",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:34:40.095Z",
-        "updatedAt": "2017-03-03T12:34:40.095Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Araby",
-        "categoryDescription": "Växjö",
-        "zoneCoordinates": {
-          "lon": 14.4736,
-          "lat": 56.5338
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "tvzdYFFS4CO6yI4kMSI6y",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:26:16.376Z",
-        "updatedAt": "2017-03-03T13:26:16.376Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Smedby",
-        "categoryDescription": "Upplands Väsby",
-        "zoneCoordinates": {
-          "lon": 17.9118,
-          "lat": 59.5071
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "4JtmCaAJDGwU2ECYaKuieG",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:20:39.029Z",
-        "updatedAt": "2017-03-03T13:20:39.029Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Hagsätra/Rågsved",
-        "categoryDescription": "Stockholm",
-        "zoneCoordinates": {
-          "lon": 18.0248,
-          "lat": 59.2575
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "fatWFeXuMwicKACswwqOC",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:25:06.326Z",
-        "updatedAt": "2017-03-03T13:25:06.326Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Skogås",
-        "categoryDescription": "Huddinge",
-        "zoneCoordinates": {
-          "lon": 18.1518,
-          "lat": 59.2188
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "d6Wim4qWRMuk0kiKIqe8u",
-        "type": "Entry",
-        "createdAt": "2017-03-03T14:13:31.669Z",
-        "updatedAt": "2017-03-03T14:13:31.669Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Skiftinge",
-        "categoryDescription": "Eskilstuna",
-        "zoneCoordinates": {
-          "lon": 16.5373,
-          "lat": 59.3912
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "7a6NwvkiVaG4AAgCsC8g8g",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:27:47.264Z",
-        "updatedAt": "2017-03-03T13:27:47.264Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Sångvägen",
-        "categoryDescription": "Järfälla",
-        "zoneCoordinates": {
-          "lon": 17.8342,
-          "lat": 59.4271
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "1Yy6ZZEpJecsaaGM88YIQW",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:54:55.599Z",
-        "updatedAt": "2017-03-03T13:54:55.599Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Lagersberg",
-        "categoryDescription": "Eskilstuna",
-        "zoneCoordinates": {
-          "lon": 16.4807,
-          "lat": 59.3529
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "1gw6wxtxiyiIOgyaew86YE",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:38:07.155Z",
-        "updatedAt": "2017-03-03T13:38:07.155Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Andersberg",
-        "categoryDescription": "Halmstad",
-        "zoneCoordinates": {
-          "lon": 12.9005,
-          "lat": 56.6601
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "3FvwsusAliGScYGiYcIqq6",
-        "type": "Entry",
-        "createdAt": "2017-03-03T10:36:37.049Z",
-        "updatedAt": "2017-03-03T10:36:37.049Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Vivalla",
-        "categoryDescription": "Örebro",
-        "zoneCoordinates": {
-          "lon": 15.1869884,
-          "lat": 59.2998949
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "7oxJ22Iz0AKMEGQIsK8W6a",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:33:21.264Z",
-        "updatedAt": "2017-03-03T12:33:21.264Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Rinkeby/Tensta",
-        "categoryDescription": "Stockholm",
-        "zoneCoordinates": {
-          "lon": 17.5543,
-          "lat": 59.2317
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "64Fq6xb7lm4I4kaeIgscmY",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:28:40.731Z",
-        "updatedAt": "2017-03-03T12:28:40.731Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Husby",
-        "categoryDescription": "Stockholm",
-        "zoneCoordinates": {
-          "lon": 17.9262805,
-          "lat": 59.409991
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "6EP1BQjk1G8A88GAe4KSEM",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:43:09.509Z",
-        "updatedAt": "2017-03-03T12:43:09.509Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Gårdsten",
-        "categoryDescription": "Göteborg",
-        "zoneCoordinates": {
-          "lon": 12.14378,
-          "lat": 57.481539
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "6Of2UDsBZCw2W2ca8oC8sG",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:48:27.568Z",
-        "updatedAt": "2017-03-03T12:48:27.568Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Lövgärdet",
-        "categoryDescription": "Göteborg",
-        "zoneCoordinates": {
-          "lon": 12.0372,
-          "lat": 57.8158
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "4gXl4OR8Gs2MGMeoOkCgI6",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:47:47.892Z",
-        "updatedAt": "2017-03-03T13:47:47.892Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Fröslunda",
-        "categoryDescription": "Eskilstuna",
-        "zoneCoordinates": {
-          "lon": 16.4824,
-          "lat": 59.3532
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "1t3OR609lWGmaA20AEEmoS",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:24:00.191Z",
-        "updatedAt": "2017-03-03T13:24:00.191Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Rissne/Hallonbergen",
-        "categoryDescription": "Sundbyberg",
-        "zoneCoordinates": {
-          "lon": 17.9513,
-          "lat": 59.3757
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "2PBlpOJqUg6syYywsoOUWK",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:41:05.909Z",
-        "updatedAt": "2017-03-03T12:41:05.909Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Biskopsgården",
-        "categoryDescription": "Göteborg",
-        "zoneCoordinates": {
-          "lon": 11.5316,
-          "lat": 57.43192
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "LCORmn9cUoWcoiMsG2sMe",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:14:27.029Z",
-        "updatedAt": "2017-03-03T13:14:27.029Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Brandbergen",
-        "categoryDescription": "Haninge",
-        "zoneCoordinates": {
-          "lon": 18.1698,
-          "lat": 59.1692
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "201yxZ6xuEuQi4is2Wg6GE",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:15:39.313Z",
-        "updatedAt": "2017-03-03T13:15:39.313Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Bredäng",
-        "categoryDescription": "Stockholm",
-        "zoneCoordinates": {
-          "lon": 17.9345,
-          "lat": 59.2956
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "6k8D7ARWOAUoeyMacAEQKy",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:21:40.720Z",
-        "updatedAt": "2017-03-03T13:21:40.720Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Hovsjö",
-        "categoryDescription": "Södertälje",
-        "zoneCoordinates": {
-          "lon": 17.6056,
-          "lat": 59.1754
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "q64nGzR36SCOQaeOEGwWG",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:58:24.059Z",
-        "updatedAt": "2017-03-03T12:58:24.059Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Alby/Fittja",
-        "categoryDescription": "Botkyra",
-        "zoneCoordinates": {
-          "lon": 17.8514,
-          "lat": 59.2427
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "5Yy3lVIqg8Uo2kimwOKaOY",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:15:16.423Z",
-        "updatedAt": "2017-03-03T12:15:16.423Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Hallunda",
-        "categoryDescription": "Botkyrka",
-        "zoneCoordinates": {
-          "lon": 17.8147,
-          "lat": 59.248
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
         "id": "2ja1YqWEQgIAISEi4io4Yy",
         "type": "Entry",
         "createdAt": "2017-03-03T13:01:43.859Z",
-        "updatedAt": "2017-03-03T13:01:43.859Z",
-        "revision": 1,
+        "updatedAt": "2017-03-07T17:48:14.543Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -772,7 +35,41 @@
         "zoneCoordinates": {
           "lon": 12.7553,
           "lat": 56.0703
-        }
+        },
+        "titleOld": "Adolfsberg/Dalhem/Drottninghög"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "q64nGzR36SCOQaeOEGwWG",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:58:24.059Z",
+        "updatedAt": "2017-03-07T17:55:02.004Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Alby/Fittja",
+        "categoryDescription": "Botkyra",
+        "zoneCoordinates": {
+          "lon": 17.8514,
+          "lat": 59.2427
+        },
+        "titleOld": "Alby/Fittja"
       }
     },
     {
@@ -787,8 +84,8 @@
         "id": "7dDcB5YLDyU0OGC0aAOyUW",
         "type": "Entry",
         "createdAt": "2017-03-03T13:29:58.163Z",
-        "updatedAt": "2017-03-03T13:29:58.163Z",
-        "revision": 1,
+        "updatedAt": "2017-03-07T17:38:53.887Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -804,7 +101,8 @@
         "zoneCoordinates": {
           "lon": 18.0064,
           "lat": 59.2782
-        }
+        },
+        "titleOld": "Älvsjö/Solberga"
       }
     },
     {
@@ -816,11 +114,11 @@
             "id": "2jlq09u4u7om"
           }
         },
-        "id": "3az2H4GqMwGeeIKuCWUq8I",
+        "id": "1gw6wxtxiyiIOgyaew86YE",
         "type": "Entry",
-        "createdAt": "2017-03-03T12:37:07.508Z",
-        "updatedAt": "2017-03-03T12:37:07.508Z",
-        "revision": 1,
+        "createdAt": "2017-03-03T13:38:07.155Z",
+        "updatedAt": "2017-03-07T17:36:01.722Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -831,12 +129,13 @@
         "locale": "sv-SE"
       },
       "fields": {
-        "title": "Seved",
-        "categoryDescription": "Malmö",
+        "title": "Andersberg",
+        "categoryDescription": "Halmstad",
         "zoneCoordinates": {
-          "lon": 13.0057,
-          "lat": 55.351845
-        }
+          "lon": 12.9005,
+          "lat": 56.6601
+        },
+        "titleOld": "Andersberg"
       }
     },
     {
@@ -848,11 +147,11 @@
             "id": "2jlq09u4u7om"
           }
         },
-        "id": "3m2NMfnre8Aug26csaQkKa",
+        "id": "5BYWKQJ1xCWqgwSQoEcyMK",
         "type": "Entry",
-        "createdAt": "2017-03-03T12:59:51.103Z",
-        "updatedAt": "2017-03-03T12:59:51.103Z",
-        "revision": 1,
+        "createdAt": "2017-03-03T12:34:40.095Z",
+        "updatedAt": "2017-03-07T17:58:55.845Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -863,268 +162,13 @@
         "locale": "sv-SE"
       },
       "fields": {
-        "title": "Tureberg",
-        "categoryDescription": "Sollentuna",
+        "title": "Araby",
+        "categoryDescription": "Växjö",
         "zoneCoordinates": {
-          "lon": 17.9367,
-          "lat": 59.4234
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
+          "lon": 14.4736,
+          "lat": 56.5338
         },
-        "id": "6vOGI2DyV2OCqy84SMSak6",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:13:39.814Z",
-        "updatedAt": "2017-03-03T13:13:39.814Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Gottsunda/Valsätra",
-        "categoryDescription": "Uppsala ",
-        "zoneCoordinates": {
-          "lon": 17.6269,
-          "lat": 59.8117
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "66SOV2Cd5Su0ic0y0yCAcA",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:03:31.378Z",
-        "updatedAt": "2017-03-03T13:03:31.378Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Hässleholmen/Hulta",
-        "categoryDescription": "Borås ",
-        "zoneCoordinates": {
-          "lon": 12.9805,
-          "lat": 57.7218
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "2r1NCa5eO0kQIyMe6gi02U",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:50:21.600Z",
-        "updatedAt": "2017-03-03T12:50:21.600Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Skäggetorp",
-        "categoryDescription": "Linköping",
-        "zoneCoordinates": {
-          "lon": 15.5776,
-          "lat": 58.4278
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "39AWumdcJyuiywIGYkSo88",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:42:44.001Z",
-        "updatedAt": "2017-03-03T13:42:44.001Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Kronogården",
-        "categoryDescription": "Trollhättan",
-        "zoneCoordinates": {
-          "lon": 12.3081,
-          "lat": 58.2697
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "5nH5RFrTt6cmCMuK4o28gy",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:38:58.019Z",
-        "updatedAt": "2017-03-03T12:38:58.019Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Bergsjön",
-        "categoryDescription": "Göteborg",
-        "zoneCoordinates": {
-          "lon": 12.337,
-          "lat": 57.4533
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "2Qky95Futyg4ueCYuW60yW",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:16:55.522Z",
-        "updatedAt": "2017-03-03T13:16:55.522Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Edsberg",
-        "categoryDescription": "Sollentuna",
-        "zoneCoordinates": {
-          "lon": 17.9668,
-          "lat": 59.4468
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "1ASH2czLsYe2UQO644Y8QC",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:35:28.500Z",
-        "updatedAt": "2017-03-03T13:35:28.500Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": " Holma/Kroksbäck/Bellevue",
-        "categoryDescription": "Malmö",
-        "zoneCoordinates": {
-          "lon": 12.9642,
-          "lat": 55.5781
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "68ywtQEBsQuuUiskAe26Ia",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:45:45.198Z",
-        "updatedAt": "2017-03-03T13:45:45.198Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Tynnered/Grevgården/Opaltorget",
-        "categoryDescription": "Göteborg",
-        "zoneCoordinates": {
-          "lon": 11.8997,
-          "lat": 57.6439
-        }
+        "titleOld": "Araby"
       }
     },
     {
@@ -1139,8 +183,8 @@
         "id": "4ParAG7KxqSACKW6GMSGAs",
         "type": "Entry",
         "createdAt": "2017-03-03T13:12:40.648Z",
-        "updatedAt": "2017-03-03T13:12:40.648Z",
-        "revision": 1,
+        "updatedAt": "2017-03-07T17:47:44.657Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1156,7 +200,8 @@
         "zoneCoordinates": {
           "lon": 16.4719,
           "lat": 59.6011
-        }
+        },
+        "titleOld": "Bäckby"
       }
     },
     {
@@ -1168,11 +213,11 @@
             "id": "2jlq09u4u7om"
           }
         },
-        "id": "1ZnnxTEjUYeayq6i6EMwQW",
+        "id": "5nH5RFrTt6cmCMuK4o28gy",
         "type": "Entry",
-        "createdAt": "2017-03-03T13:19:42.505Z",
-        "updatedAt": "2017-03-03T13:19:42.505Z",
-        "revision": 1,
+        "createdAt": "2017-03-03T12:38:58.019Z",
+        "updatedAt": "2017-03-07T17:57:43.575Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1183,12 +228,13 @@
         "locale": "sv-SE"
       },
       "fields": {
-        "title": "Fornhöjden",
-        "categoryDescription": "Södertälje",
+        "title": "Bergsjön",
+        "categoryDescription": "Göteborg",
         "zoneCoordinates": {
-          "lon": 17.6645,
-          "lat": 59.1934
-        }
+          "lon": 12.337343322753895,
+          "lat": 57.45366940438918
+        },
+        "titleOld": "Bergsjön"
       }
     },
     {
@@ -1200,11 +246,11 @@
             "id": "2jlq09u4u7om"
           }
         },
-        "id": "7MyJOmrkZycIQqaigOgay",
+        "id": "2PBlpOJqUg6syYywsoOUWK",
         "type": "Entry",
-        "createdAt": "2017-03-03T13:33:10.815Z",
-        "updatedAt": "2017-03-03T13:33:10.815Z",
-        "revision": 1,
+        "createdAt": "2017-03-03T12:41:05.909Z",
+        "updatedAt": "2017-03-07T17:57:29.332Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1215,12 +261,13 @@
         "locale": "sv-SE"
       },
       "fields": {
-        "title": "Gamlegården",
-        "categoryDescription": "Kristianstad",
+        "title": "Biskopsgården",
+        "categoryDescription": "Göteborg",
         "zoneCoordinates": {
-          "lon": 14.15772,
-          "lat": 56.05878
-        }
+          "lon": 11.5316,
+          "lat": 57.43192
+        },
+        "titleOld": "Biskopsgården"
       }
     },
     {
@@ -1232,11 +279,11 @@
             "id": "2jlq09u4u7om"
           }
         },
-        "id": "62AZxjmj96M6EiWGSmIMWs",
+        "id": "LCORmn9cUoWcoiMsG2sMe",
         "type": "Entry",
-        "createdAt": "2017-03-03T13:36:46.473Z",
-        "updatedAt": "2017-03-03T13:36:46.473Z",
-        "revision": 1,
+        "createdAt": "2017-03-03T13:14:27.029Z",
+        "updatedAt": "2017-03-07T17:47:10.832Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1247,12 +294,13 @@
         "locale": "sv-SE"
       },
       "fields": {
-        "title": "Koppargården",
-        "categoryDescription": "Landskrona",
+        "title": "Brandbergen",
+        "categoryDescription": "Haninge",
         "zoneCoordinates": {
-          "lon": 12.8495,
-          "lat": 55.8895
-        }
+          "lon": 18.1698,
+          "lat": 59.1692
+        },
+        "titleOld": "Brandbergen"
       }
     },
     {
@@ -1264,11 +312,11 @@
             "id": "2jlq09u4u7om"
           }
         },
-        "id": "5n4PcVm3sI2siE8SuSYQk8",
+        "id": "201yxZ6xuEuQi4is2Wg6GE",
         "type": "Entry",
-        "createdAt": "2017-03-03T12:54:03.539Z",
-        "updatedAt": "2017-03-03T12:54:03.539Z",
-        "revision": 1,
+        "createdAt": "2017-03-03T13:15:39.313Z",
+        "updatedAt": "2017-03-07T17:46:55.712Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1279,44 +327,13 @@
         "locale": "sv-SE"
       },
       "fields": {
-        "title": "Oxhagen/Varberga",
-        "categoryDescription": "Örebro",
+        "title": "Bredäng",
+        "categoryDescription": "Stockholm",
         "zoneCoordinates": {
-          "lon": 15.1752,
-          "lat": 59.2867
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
+          "lon": 17.9345,
+          "lat": 59.2956
         },
-        "id": "4wZl6sXp1CqmQGKaCGCU6i",
-        "type": "Entry",
-        "createdAt": "2017-03-03T14:12:40.573Z",
-        "updatedAt": "2017-03-03T14:12:40.573Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Råslätt",
-        "categoryDescription": "Jönköping",
-        "zoneCoordinates": {
-          "lon": 14.1514,
-          "lat": 57.7391
-        }
+        "titleOld": "Bredäng"
       }
     },
     {
@@ -1331,8 +348,8 @@
         "id": "5S2qNVKNXyq4E8EGAgS0iW",
         "type": "Entry",
         "createdAt": "2017-03-03T13:32:14.350Z",
-        "updatedAt": "2017-03-03T13:32:14.350Z",
-        "revision": 1,
+        "updatedAt": "2017-03-07T17:37:05.408Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1348,7 +365,41 @@
         "zoneCoordinates": {
           "lon": 14.1288,
           "lat": 56.0195
-        }
+        },
+        "titleOld": "Charlottesborg"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "2Qky95Futyg4ueCYuW60yW",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:16:55.522Z",
+        "updatedAt": "2017-03-07T17:46:35.396Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Edsberg",
+        "categoryDescription": "Sollentuna",
+        "zoneCoordinates": {
+          "lon": 17.9668,
+          "lat": 59.4468
+        },
+        "titleOld": "Edsberg"
       }
     },
     {
@@ -1363,8 +414,8 @@
         "id": "5EaHIlo5xYYEoKCSqQawq0",
         "type": "Entry",
         "createdAt": "2017-03-03T13:40:00.818Z",
-        "updatedAt": "2017-03-03T13:40:00.818Z",
-        "revision": 1,
+        "updatedAt": "2017-03-07T17:35:48.091Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1380,7 +431,8 @@
         "zoneCoordinates": {
           "lon": 12.47382,
           "lat": 56.910396
-        }
+        },
+        "titleOld": "Falkagård"
       }
     },
     {
@@ -1392,11 +444,11 @@
             "id": "2jlq09u4u7om"
           }
         },
-        "id": "55Hvt7Hkxq2Ukiks4qekw0",
+        "id": "51AWB4gffGaIaCSuMm0c8O",
         "type": "Entry",
-        "createdAt": "2017-03-03T12:45:15.167Z",
-        "updatedAt": "2017-03-03T12:45:15.167Z",
-        "revision": 1,
+        "createdAt": "2017-03-03T13:18:27.454Z",
+        "updatedAt": "2017-03-07T17:14:36.529Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1407,12 +459,145 @@
         "locale": "sv-SE"
       },
       "fields": {
-        "title": "Hammarkullen",
+        "title": "Finnsta",
+        "categoryDescription": "Upplands-Bro",
+        "zoneCoordinates": {
+          "lon": 17.6502,
+          "lat": 59.5183
+        },
+        "titleOld": "Finnsta"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "1ZnnxTEjUYeayq6i6EMwQW",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:19:42.505Z",
+        "updatedAt": "2017-03-07T17:45:54.869Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Fornhöjden",
+        "categoryDescription": "Södertälje",
+        "zoneCoordinates": {
+          "lon": 17.6645,
+          "lat": 59.1934
+        },
+        "titleOld": "Fornhöjden"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "4gXl4OR8Gs2MGMeoOkCgI6",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:47:47.892Z",
+        "updatedAt": "2017-03-07T17:15:10.891Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Fröslunda",
+        "categoryDescription": "Eskilstuna",
+        "zoneCoordinates": {
+          "lon": 16.4824,
+          "lat": 59.3532
+        },
+        "titleOld": "Fröslunda"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "7MyJOmrkZycIQqaigOgay",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:33:10.815Z",
+        "updatedAt": "2017-03-07T17:36:49.281Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Gamlegården",
+        "categoryDescription": "Kristianstad",
+        "zoneCoordinates": {
+          "lon": 14.15772,
+          "lat": 56.05878
+        },
+        "titleOld": "Gamlegården"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "6EP1BQjk1G8A88GAe4KSEM",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:43:09.509Z",
+        "updatedAt": "2017-03-07T17:57:12.750Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Gårdsten",
         "categoryDescription": "Göteborg",
         "zoneCoordinates": {
-          "lon": 12.12061,
-          "lat": 57.461024
-        }
+          "lon": 12.14378,
+          "lat": 57.481539
+        },
+        "titleOld": "Gårdsten"
       }
     },
     {
@@ -1424,11 +609,11 @@
             "id": "2jlq09u4u7om"
           }
         },
-        "id": "4t8szSGG88AMWK0CAeGoOk",
+        "id": "6vOGI2DyV2OCqy84SMSak6",
         "type": "Entry",
-        "createdAt": "2017-03-03T13:22:58.739Z",
-        "updatedAt": "2017-03-03T13:22:58.739Z",
-        "revision": 1,
+        "createdAt": "2017-03-03T13:13:39.814Z",
+        "updatedAt": "2017-03-07T17:47:27.158Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1439,108 +624,13 @@
         "locale": "sv-SE"
       },
       "fields": {
-        "title": "Hässelby/Vällingby",
-        "categoryDescription": "Stockholm",
+        "title": "Gottsunda/Valsätra",
+        "categoryDescription": "Uppsala ",
         "zoneCoordinates": {
-          "lon": 17.8605,
-          "lat": 59.3666
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
+          "lon": 17.6269,
+          "lat": 59.8117
         },
-        "id": "1kZaqwM51O4M4eSwoqmIka",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:43:49.787Z",
-        "updatedAt": "2017-03-03T13:43:49.787Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Rannebergen",
-        "categoryDescription": "Göteborg",
-        "zoneCoordinates": {
-          "lon": 12.0711,
-          "lat": 57.8022
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "60OCmAC4NyeCUWMOsQ4Y4U",
-        "type": "Entry",
-        "createdAt": "2017-03-03T13:41:37.615Z",
-        "updatedAt": "2017-03-03T13:41:37.615Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Hisings Backa",
-        "categoryDescription": "Göteborg",
-        "zoneCoordinates": {
-          "lon": 11.9821,
-          "lat": 57.7478
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "2jlq09u4u7om"
-          }
-        },
-        "id": "688EzANmIE8IKqO4sigOKY",
-        "type": "Entry",
-        "createdAt": "2017-03-03T12:35:50.309Z",
-        "updatedAt": "2017-03-03T12:35:50.309Z",
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
-          }
-        },
-        "locale": "sv-SE"
-      },
-      "fields": {
-        "title": "Rosengård",
-        "categoryDescription": "Malmö",
-        "zoneCoordinates": {
-          "lon": 13.24,
-          "lat": 55.351
-        }
+        "titleOld": "Gottsunda/Valsätra"
       }
     },
     {
@@ -1555,8 +645,8 @@
         "id": "55nRosF2MUM440iyMYA2qC",
         "type": "Entry",
         "createdAt": "2017-03-03T13:49:04.368Z",
-        "updatedAt": "2017-03-03T13:49:04.368Z",
-        "revision": 1,
+        "updatedAt": "2017-03-07T17:11:25.160Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1572,7 +662,8 @@
         "zoneCoordinates": {
           "lon": 16.2069,
           "lat": 58.5707
-        }
+        },
+        "titleOld": "Hageby"
       }
     },
     {
@@ -1584,11 +675,11 @@
             "id": "2jlq09u4u7om"
           }
         },
-        "id": "5yHQLuvTNuQi4wsMCwom6Y",
+        "id": "4JtmCaAJDGwU2ECYaKuieG",
         "type": "Entry",
-        "createdAt": "2017-03-03T12:31:39.673Z",
-        "updatedAt": "2017-03-03T12:31:39.673Z",
-        "revision": 1,
+        "createdAt": "2017-03-03T13:20:39.029Z",
+        "updatedAt": "2017-03-07T17:45:39.942Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1599,12 +690,178 @@
         "locale": "sv-SE"
       },
       "fields": {
-        "title": "Ronna/Geneta/Lina",
-        "categoryDescription": "Södertälje",
+        "title": "Hagsätra/Rågsved",
+        "categoryDescription": "Stockholm",
         "zoneCoordinates": {
-          "lon": 17.589111,
-          "lat": 59.197219
-        }
+          "lon": 18.0248,
+          "lat": 59.2575
+        },
+        "titleOld": "Hagsätra/Rågsved"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "5Yy3lVIqg8Uo2kimwOKaOY",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:15:16.423Z",
+        "updatedAt": "2017-03-07T17:59:58.495Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Hallunda",
+        "categoryDescription": "Botkyrka",
+        "zoneCoordinates": {
+          "lon": 17.8147,
+          "lat": 59.248
+        },
+        "titleOld": "Hallunda"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "55Hvt7Hkxq2Ukiks4qekw0",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:45:15.167Z",
+        "updatedAt": "2017-03-07T17:56:46.383Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Hammarkullen",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 12.12061,
+          "lat": 57.461024
+        },
+        "titleOld": "Hammarkullen"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "4t8szSGG88AMWK0CAeGoOk",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:22:58.739Z",
+        "updatedAt": "2017-03-07T17:45:12.458Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Hässelby/Vällingby",
+        "categoryDescription": "Stockholm",
+        "zoneCoordinates": {
+          "lon": 17.8605,
+          "lat": 59.3666
+        },
+        "titleOld": "Hässelby/Vällingby"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "66SOV2Cd5Su0ic0y0yCAcA",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:03:31.378Z",
+        "updatedAt": "2017-03-07T17:47:56.698Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Hässleholmen/Hulta",
+        "categoryDescription": "Borås ",
+        "zoneCoordinates": {
+          "lon": 12.9805,
+          "lat": 57.7218
+        },
+        "titleOld": "Hässleholmen/Hulta"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "60OCmAC4NyeCUWMOsQ4Y4U",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:41:37.615Z",
+        "updatedAt": "2017-03-07T17:23:15.789Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Hisings Backa",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 11.9821,
+          "lat": 57.7478
+        },
+        "titleOld": "Hisings Backa"
       }
     },
     {
@@ -1619,8 +876,8 @@
         "id": "zQSFTmTnl6mEiwEK0MM8u",
         "type": "Entry",
         "createdAt": "2017-03-03T12:46:28.273Z",
-        "updatedAt": "2017-03-03T12:46:28.273Z",
-        "revision": 1,
+        "updatedAt": "2017-03-07T17:56:21.385Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1636,7 +893,239 @@
         "zoneCoordinates": {
           "lon": 12.12061,
           "lat": 57.461
-        }
+        },
+        "titleOld": "Hjällbo"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "1ASH2czLsYe2UQO644Y8QC",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:35:28.500Z",
+        "updatedAt": "2017-03-07T17:36:29.475Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": " Holma/Kroksbäck/Bellevue",
+        "categoryDescription": "Malmö",
+        "zoneCoordinates": {
+          "lon": 12.9642,
+          "lat": 55.5781
+        },
+        "titleOld": " Holma/Kroksbäck/Bellevue"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "6k8D7ARWOAUoeyMacAEQKy",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:21:40.720Z",
+        "updatedAt": "2017-03-07T17:45:25.795Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Hovsjö",
+        "categoryDescription": "Södertälje",
+        "zoneCoordinates": {
+          "lon": 17.6056,
+          "lat": 59.1754
+        },
+        "titleOld": "Hovsjö"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "64Fq6xb7lm4I4kaeIgscmY",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:28:40.731Z",
+        "updatedAt": "2017-03-07T17:59:36.944Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Husby",
+        "categoryDescription": "Stockholm",
+        "zoneCoordinates": {
+          "lon": 17.9262805,
+          "lat": 59.409991
+        },
+        "titleOld": "Husby"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "62AZxjmj96M6EiWGSmIMWs",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:36:46.473Z",
+        "updatedAt": "2017-03-07T17:36:16.853Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Koppargården",
+        "categoryDescription": "Landskrona",
+        "zoneCoordinates": {
+          "lon": 12.8495,
+          "lat": 55.8895
+        },
+        "titleOld": "Koppargården"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "39AWumdcJyuiywIGYkSo88",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:42:44.001Z",
+        "updatedAt": "2017-03-07T17:17:01.330Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Kronogården",
+        "categoryDescription": "Trollhättan",
+        "zoneCoordinates": {
+          "lon": 12.3081,
+          "lat": 58.2697
+        },
+        "titleOld": "Kronogården"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "1Yy6ZZEpJecsaaGM88YIQW",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:54:55.599Z",
+        "updatedAt": "2017-03-07T17:10:45.431Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Lagersberg",
+        "categoryDescription": "Eskilstuna",
+        "zoneCoordinates": {
+          "lon": 16.4807,
+          "lat": 59.3529
+        },
+        "titleOld": "Lagersberg"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "6Of2UDsBZCw2W2ca8oC8sG",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:48:27.568Z",
+        "updatedAt": "2017-03-07T17:56:05.117Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Lövgärdet",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 12.0372,
+          "lat": 57.8158
+        },
+        "titleOld": "Lövgärdet"
       }
     },
     {
@@ -1651,8 +1140,8 @@
         "id": "6CwakqmV6EC8gQUSyQoWWo",
         "type": "Entry",
         "createdAt": "2017-03-03T13:31:02.381Z",
-        "updatedAt": "2017-03-03T13:31:02.381Z",
-        "revision": 1,
+        "updatedAt": "2017-03-07T17:38:30.650Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1668,7 +1157,437 @@
         "zoneCoordinates": {
           "lon": 18.0356,
           "lat": 59.2871
-        }
+        },
+        "titleOld": "Östberga"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "5n4PcVm3sI2siE8SuSYQk8",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:54:03.539Z",
+        "updatedAt": "2017-03-07T17:55:38.346Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Oxhagen/Varberga",
+        "categoryDescription": "Örebro",
+        "zoneCoordinates": {
+          "lon": 15.1752,
+          "lat": 59.2867
+        },
+        "titleOld": "Oxhagen/Varberga"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "1kZaqwM51O4M4eSwoqmIka",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:43:49.787Z",
+        "updatedAt": "2017-03-07T17:16:46.396Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Rannebergen",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 12.0711,
+          "lat": 57.8022
+        },
+        "titleOld": "Rannebergen"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "4wZl6sXp1CqmQGKaCGCU6i",
+        "type": "Entry",
+        "createdAt": "2017-03-03T14:12:40.573Z",
+        "updatedAt": "2017-03-07T17:10:14.782Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Råslätt",
+        "categoryDescription": "Jönköping",
+        "zoneCoordinates": {
+          "lon": 14.147966772460904,
+          "lat": 57.73751937176842
+        },
+        "titleOld": "Råslätt"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "7oxJ22Iz0AKMEGQIsK8W6a",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:33:21.264Z",
+        "updatedAt": "2017-03-07T17:59:10.040Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Rinkeby/Tensta",
+        "categoryDescription": "Stockholm",
+        "zoneCoordinates": {
+          "lon": 17.5543,
+          "lat": 59.2317
+        },
+        "titleOld": "Rinkeby/Tensta"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "1t3OR609lWGmaA20AEEmoS",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:24:00.191Z",
+        "updatedAt": "2017-03-07T17:44:49.351Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Rissne/Hallonbergen",
+        "categoryDescription": "Sundbyberg",
+        "zoneCoordinates": {
+          "lon": 17.9513,
+          "lat": 59.3757
+        },
+        "titleOld": "Rissne/Hallonbergen"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "5yHQLuvTNuQi4wsMCwom6Y",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:31:39.673Z",
+        "updatedAt": "2017-03-07T17:59:23.756Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Ronna/Geneta/Lina",
+        "categoryDescription": "Södertälje",
+        "zoneCoordinates": {
+          "lon": 17.589111,
+          "lat": 59.197219
+        },
+        "titleOld": "Ronna/Geneta/Lina"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "688EzANmIE8IKqO4sigOKY",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:35:50.309Z",
+        "updatedAt": "2017-03-07T17:58:40.517Z",
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Rosengård",
+        "categoryDescription": "Malmö",
+        "zoneCoordinates": {
+          "lon": 13.045674599999984,
+          "lat": 55.584091
+        },
+        "titleOld": "Rosengård"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "7a6NwvkiVaG4AAgCsC8g8g",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:27:47.264Z",
+        "updatedAt": "2017-03-07T17:42:04.792Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Sångvägen",
+        "categoryDescription": "Järfälla",
+        "zoneCoordinates": {
+          "lon": 17.8342,
+          "lat": 59.4271
+        },
+        "titleOld": "Sångvägen"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "3az2H4GqMwGeeIKuCWUq8I",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:37:07.508Z",
+        "updatedAt": "2017-03-07T17:57:59.381Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Seved",
+        "categoryDescription": "Malmö",
+        "zoneCoordinates": {
+          "lon": 13.0057,
+          "lat": 55.351845
+        },
+        "titleOld": "Seved"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "2r1NCa5eO0kQIyMe6gi02U",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:50:21.600Z",
+        "updatedAt": "2017-03-07T17:55:50.772Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Skäggetorp",
+        "categoryDescription": "Linköping",
+        "zoneCoordinates": {
+          "lon": 15.5776,
+          "lat": 58.4278
+        },
+        "titleOld": "Skäggetorp"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "d6Wim4qWRMuk0kiKIqe8u",
+        "type": "Entry",
+        "createdAt": "2017-03-03T14:13:31.669Z",
+        "updatedAt": "2017-03-07T17:09:20.062Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Skiftinge",
+        "categoryDescription": "Eskilstuna",
+        "zoneCoordinates": {
+          "lon": 16.53727854232784,
+          "lat": 59.390227600498726
+        },
+        "titleOld": "Skiftinge"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "fatWFeXuMwicKACswwqOC",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:25:06.326Z",
+        "updatedAt": "2017-03-07T17:44:34.667Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Skogås",
+        "categoryDescription": "Huddinge",
+        "zoneCoordinates": {
+          "lon": 18.1518,
+          "lat": 59.2188
+        },
+        "titleOld": "Skogås"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "tvzdYFFS4CO6yI4kMSI6y",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:26:16.376Z",
+        "updatedAt": "2017-03-07T17:44:22.285Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Smedby",
+        "categoryDescription": "Upplands Väsby",
+        "zoneCoordinates": {
+          "lon": 17.9118,
+          "lat": 59.5071
+        },
+        "titleOld": "Smedby"
       }
     },
     {
@@ -1683,8 +1602,8 @@
         "id": "2suBA9dBUwqKCGEs4QOWGW",
         "type": "Entry",
         "createdAt": "2017-03-03T13:29:04.737Z",
-        "updatedAt": "2017-03-03T13:29:04.737Z",
-        "revision": 1,
+        "updatedAt": "2017-03-07T17:39:11.768Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1700,7 +1619,140 @@
         "zoneCoordinates": {
           "lon": 17.82173,
           "lat": 59.45483
-        }
+        },
+        "titleOld": "Termovägen"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "3WPxFkpOLKCmQGSgaOMW2W",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:56:02.870Z",
+        "updatedAt": "2017-03-07T17:55:22.407Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Tjärna ängar",
+        "categoryDescription": "Borlänge",
+        "zoneCoordinates": {
+          "lon": 15.40201,
+          "lat": 60.49365
+        },
+        "titleOld": "Tjärna ängar"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "3m2NMfnre8Aug26csaQkKa",
+        "type": "Entry",
+        "createdAt": "2017-03-03T12:59:51.103Z",
+        "updatedAt": "2017-03-07T17:48:54.339Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Tureberg",
+        "categoryDescription": "Sollentuna",
+        "zoneCoordinates": {
+          "lon": 17.9367,
+          "lat": 59.4234
+        },
+        "titleOld": "Tureberg"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "68ywtQEBsQuuUiskAe26Ia",
+        "type": "Entry",
+        "createdAt": "2017-03-03T13:45:45.198Z",
+        "updatedAt": "2017-03-07T17:16:30.200Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Tynnered/Grevgården/Opaltorget",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 11.900627100000065,
+          "lat": 57.64073319999999
+        },
+        "titleOld": "Tynnered/Grevgården/Opaltorget"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2jlq09u4u7om"
+          }
+        },
+        "id": "3FvwsusAliGScYGiYcIqq6",
+        "type": "Entry",
+        "createdAt": "2017-03-03T10:36:37.049Z",
+        "updatedAt": "2017-03-07T18:27:22.182Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "6XwpTaSiiI2Ak2Ww0oi6qa"
+          }
+        },
+        "locale": "sv-SE"
+      },
+      "fields": {
+        "title": "Vivalla",
+        "categoryDescription": "Örebro",
+        "zoneCoordinates": {
+          "lon": 15.1869884,
+          "lat": 59.2998949
+        },
+        "titleOld": "Vivalla"
       }
     }
   ]

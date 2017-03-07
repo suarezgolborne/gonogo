@@ -16,12 +16,15 @@ var client = contentful.createClient({
   accessToken: ACCESS_TOKEN
 })
 
+ var allZones = zones;
+
 class App extends Component {
 
     constructor(props, context) {
       super(props, context)
 
       const zoneOnLoad = this.props.app.location.query.order || 46;
+
 
       this.state = {
           coordinates: [zones.items[zoneOnLoad].fields.zoneCoordinates.lat, zones.items[zoneOnLoad].fields.zoneCoordinates.lon],
@@ -37,10 +40,12 @@ class App extends Component {
     componentDidMount() {
 
         client.getEntries({
-            'content_type': '6XwpTaSiiI2Ak2Ww0oi6qa'
+            'content_type': '6XwpTaSiiI2Ak2Ww0oi6qa',
+             'order': 'fields.title'
             }
         )
      .then((response) => {
+         console.log(response);
           this.setState(
               {zones: response.items}
           );
@@ -60,30 +65,6 @@ class App extends Component {
             return 1
         return 0
     }
-
-    // employees.sort(
-    //     function(a, b){
-    // var nameA=a.name.toLowerCase(), nameB=b.name.toLowerCase()
-    // if (nameA < nameB) //sort string ascending
-    //     return -1
-    // if (nameA > nameB)
-    //     return 1
-    // return 0 //default return value (no sorting)
-    // })
-
-    // findIdbyPathname(object){
-    //     if(object.hasOwnProperty('id') && object["id"]==1)
-    //     return object;
-    //
-    //     for(var i=0;i<Object.keys(object).length;i++){
-    //         if(typeof object[Object.keys(object)[i]]=="object"){
-    //         o=customFilter(object[Object.keys(object)[i]]);
-    //         if(o!=null)
-    //             return o;
-    //     }
-    // }
-    //     return null;
-    // }
 
     updateZone(i, zone) {
         if (i !== undefined) {
