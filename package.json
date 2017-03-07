@@ -4,13 +4,15 @@
   "private": true,
   "dependencies": {
     "contentful": "3.8.1",
+    "express": "^4.15.2",
     "leaflet": "1.0.3",
+    "morgan": "^1.8.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-leaflet": "1.1.0",
+    "react-router": "3.0.2",
     "react-scripts": "0.9.3",
-    "whatwg-fetch": "^2.0.3",
-    "react-router": "3.0.2"
+    "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "eslint-plugin-react": "^6.10.0",
