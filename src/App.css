@@ -87,8 +87,12 @@ right: 1em;
     font-weight: 800;
     width: 40%;
     line-height: 1em;
-    color: #333;
+    color: #3E6680;
     margin-bottom: 1em;
+}
+
+.location-nogo {
+    white-space: nowrap;
 }
 
 .location-title {
