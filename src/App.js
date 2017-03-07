@@ -131,11 +131,11 @@ class App extends Component {
 
         <div className="location">
             <div className="location-title-container">
-                <span>Sverige sägs ha 53 <span className="location-nogo">"no-go"</span>-zoner, </span>
+                <span>Sverige sägs ha 53 <span className="location-nogo">"no-go"</span>-zoner. </span>
                 <span  className="location-title">{this.state.zone}</span>
                 <span> i </span>
                 <span className="location-title">{this.state.description}</span>
-                <span> är en av dem.</span>
+                <span> är en av dem!</span>
             </div>
 
             {dontMiss ?
