@@ -71,6 +71,20 @@ class App extends Component {
     // return 0 //default return value (no sorting)
     // })
 
+    // findIdbyPathname(object){
+    //     if(object.hasOwnProperty('id') && object["id"]==1)
+    //     return object;
+    //
+    //     for(var i=0;i<Object.keys(object).length;i++){
+    //         if(typeof object[Object.keys(object)[i]]=="object"){
+    //         o=customFilter(object[Object.keys(object)[i]]);
+    //         if(o!=null)
+    //             return o;
+    //     }
+    // }
+    //     return null;
+    // }
+
     updateZone(i, zone) {
         if (i !== undefined) {
         this.setState({
@@ -116,8 +130,12 @@ class App extends Component {
         </div>
 
         <div className="location">
-            <div className="location-title">
-                {this.state.zone}, {this.state.description}
+            <div className="location-title-container">
+                <span>Sverige sägs ha 53 "no-go"-zoner, </span>
+                <span  className="location-title">{this.state.zone}</span>
+                <span> i </span>
+                <span className="location-title">{this.state.description}</span>
+                <span> är en av dem.</span>
             </div>
 
             {dontMiss ?

@@ -68,27 +68,35 @@ right: 1em;
 }
 
 .location {
-    left: 0.5em;
+    left: 0;
         max-height: 100vh;
         position: absolute;
         z-index: 12;
         overflow: auto;
         min-width: 420px;
-
+        margin-top: 1em;
+    margin-left: 1em;
 }
 
 .location::-webkit-scrollbar, .list::-webkit-scrollbar  {
     display: none;
 }
 
+.location-title-container {
+    font-size: 34px;
+    font-weight: 800;
+    width: 40%;
+    line-height: 1em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
 .location-title {
     position:relative;
     font-size: 34px;
     font-weight: 800;
-    color: #fefb01;
-    text-shadow: 3px 2px 0px #0096e1;
-        margin-bottom: 1em;
-            display: table;
+    color: #0096e1;
+    text-shadow: 3px 2px 0px #fefb01;
 }
 
 .featurecontainer {
