@@ -40,7 +40,7 @@ class App extends Component {
             'content_type': '6XwpTaSiiI2Ak2Ww0oi6qa'
             }
         )
-      .then((response) => {
+     .then((response) => {
           this.setState(
               {zones: response.items}
           );
@@ -51,6 +51,25 @@ class App extends Component {
         console.log(error)
       })
     }
+
+    sortArray(a,b) {
+        var nameA=a.fields.title.toLowerCase(), nameB=b.fields.title.toLowerCase()
+        if (nameA < nameB) //sort string ascending
+            return -1
+        if (nameA > nameB)
+            return 1
+        return 0
+    }
+
+    // employees.sort(
+    //     function(a, b){
+    // var nameA=a.name.toLowerCase(), nameB=b.name.toLowerCase()
+    // if (nameA < nameB) //sort string ascending
+    //     return -1
+    // if (nameA > nameB)
+    //     return 1
+    // return 0 //default return value (no sorting)
+    // })
 
     updateZone(i, zone) {
         if (i !== undefined) {
