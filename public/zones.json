@@ -1,0 +1,699 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 53,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "fields": {
+        "title": "Adolfsberg/Dalhem/Drottninghög",
+        "categoryDescription": "Helsingborg",
+        "zoneCoordinates": {
+          "lon": 12.7553,
+          "lat": 56.0703
+        }
+      },
+      "sys": {
+        "id": "2ja1YqWEQgIAISEi4io4Yy"
+      }
+    },
+    {
+      "fields": {
+        "title": "Alby/Fittja",
+        "categoryDescription": "Botkyra",
+        "zoneCoordinates": {
+          "lon": 17.8514,
+          "lat": 59.2427
+        }
+      },
+      "sys": {
+        "id": "q64nGzR36SCOQaeOEGwWG"
+      }
+    },
+    {
+      "fields": {
+        "title": "Älvsjö/Solberga",
+        "categoryDescription": "Stockholm",
+        "zoneCoordinates": {
+          "lon": 18.0064,
+          "lat": 59.2782
+        }
+      },
+      "sys": {
+        "id": "7dDcB5YLDyU0OGC0aAOyUW"
+      }
+    },
+    {
+      "fields": {
+        "title": "Andersberg",
+        "categoryDescription": "Halmstad",
+        "zoneCoordinates": {
+          "lon": 12.9005,
+          "lat": 56.6601
+        }
+      },
+      "sys": {
+        "id": "1gw6wxtxiyiIOgyaew86YE"
+      }
+    },
+    {
+      "fields": {
+        "title": "Araby",
+        "categoryDescription": "Växjö",
+        "zoneCoordinates": {
+          "lon": 14.4736,
+          "lat": 56.5338
+        }
+      },
+      "sys": {
+        "id": "5BYWKQJ1xCWqgwSQoEcyMK"
+      }
+    },
+    {
+      "fields": {
+        "title": "Bäckby",
+        "categoryDescription": "Västerås",
+        "zoneCoordinates": {
+          "lon": 16.4719,
+          "lat": 59.6011
+        }
+      },
+      "sys": {
+        "id": "4ParAG7KxqSACKW6GMSGAs"
+      }
+    },
+    {
+      "fields": {
+        "title": "Bergsjön",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 12.074604200000067,
+          "lat": 57.75693959999999
+        }
+      },
+      "sys": {
+        "id": "5nH5RFrTt6cmCMuK4o28gy"
+      }
+    },
+    {
+      "fields": {
+        "title": "Biskopsgården",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 11.5316,
+          "lat": 57.43192
+        }
+      },
+      "sys": {
+        "id": "2PBlpOJqUg6syYywsoOUWK"
+      }
+    },
+    {
+      "fields": {
+        "title": "Brandbergen",
+        "categoryDescription": "Haninge",
+        "zoneCoordinates": {
+          "lon": 18.1698,
+          "lat": 59.1692
+        }
+      },
+      "sys": {
+        "id": "LCORmn9cUoWcoiMsG2sMe"
+      }
+    },
+    {
+      "fields": {
+        "title": "Bredäng",
+        "categoryDescription": "Stockholm",
+        "zoneCoordinates": {
+          "lon": 17.9345,
+          "lat": 59.2956
+        }
+      },
+      "sys": {
+        "id": "201yxZ6xuEuQi4is2Wg6GE"
+      }
+    },
+    {
+      "fields": {
+        "title": "Charlottesborg",
+        "categoryDescription": "Kristianstad",
+        "zoneCoordinates": {
+          "lon": 14.1288,
+          "lat": 56.0195
+        }
+      },
+      "sys": {
+        "id": "5S2qNVKNXyq4E8EGAgS0iW"
+      }
+    },
+    {
+      "fields": {
+        "title": "Edsberg",
+        "categoryDescription": "Sollentuna",
+        "zoneCoordinates": {
+          "lon": 17.9668,
+          "lat": 59.4468
+        }
+      },
+      "sys": {
+        "id": "2Qky95Futyg4ueCYuW60yW"
+      }
+    },
+    {
+      "fields": {
+        "title": "Falkagård",
+        "categoryDescription": "Falkenberg",
+        "zoneCoordinates": {
+          "lon": 12.47382,
+          "lat": 56.910396
+        }
+      },
+      "sys": {
+        "id": "5EaHIlo5xYYEoKCSqQawq0"
+      }
+    },
+    {
+      "fields": {
+        "title": "Finnsta",
+        "categoryDescription": "Upplands-Bro",
+        "zoneCoordinates": {
+          "lon": 17.6502,
+          "lat": 59.5183
+        }
+      },
+      "sys": {
+        "id": "51AWB4gffGaIaCSuMm0c8O"
+      }
+    },
+    {
+      "fields": {
+        "title": "Fornhöjden",
+        "categoryDescription": "Södertälje",
+        "zoneCoordinates": {
+          "lon": 17.6645,
+          "lat": 59.1934
+        }
+      },
+      "sys": {
+        "id": "1ZnnxTEjUYeayq6i6EMwQW"
+      }
+    },
+    {
+      "fields": {
+        "title": "Fröslunda",
+        "categoryDescription": "Eskilstuna",
+        "zoneCoordinates": {
+          "lon": 16.4824,
+          "lat": 59.3532
+        }
+      },
+      "sys": {
+        "id": "4gXl4OR8Gs2MGMeoOkCgI6"
+      }
+    },
+    {
+      "fields": {
+        "title": "Gamlegården",
+        "categoryDescription": "Kristianstad",
+        "zoneCoordinates": {
+          "lon": 14.15772,
+          "lat": 56.05878
+        }
+      },
+      "sys": {
+        "id": "7MyJOmrkZycIQqaigOgay"
+      }
+    },
+    {
+      "fields": {
+        "title": "Gårdsten",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 12.14378,
+          "lat": 57.481539
+        }
+      },
+      "sys": {
+        "id": "6EP1BQjk1G8A88GAe4KSEM"
+      }
+    },
+    {
+      "fields": {
+        "title": "Gottsunda/Valsätra",
+        "categoryDescription": "Uppsala ",
+        "zoneCoordinates": {
+          "lon": 17.6269,
+          "lat": 59.8117
+        }
+      },
+      "sys": {
+        "id": "6vOGI2DyV2OCqy84SMSak6"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hageby",
+        "categoryDescription": "Norrköping",
+        "zoneCoordinates": {
+          "lon": 16.2069,
+          "lat": 58.5707
+        }
+      },
+      "sys": {
+        "id": "55nRosF2MUM440iyMYA2qC"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hagsätra/Rågsved",
+        "categoryDescription": "Stockholm",
+        "zoneCoordinates": {
+          "lon": 18.0248,
+          "lat": 59.2575
+        }
+      },
+      "sys": {
+        "id": "4JtmCaAJDGwU2ECYaKuieG"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hallunda",
+        "categoryDescription": "Botkyrka",
+        "zoneCoordinates": {
+          "lon": 17.8147,
+          "lat": 59.248
+        }
+      },
+      "sys": {
+        "id": "5Yy3lVIqg8Uo2kimwOKaOY"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hammarkullen",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 12.12061,
+          "lat": 57.461024
+        }
+      },
+      "sys": {
+        "id": "55Hvt7Hkxq2Ukiks4qekw0"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hässelby/Vällingby",
+        "categoryDescription": "Stockholm",
+        "zoneCoordinates": {
+          "lon": 17.8605,
+          "lat": 59.3666
+        }
+      },
+      "sys": {
+        "id": "4t8szSGG88AMWK0CAeGoOk"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hässleholmen/Hulta",
+        "categoryDescription": "Borås ",
+        "zoneCoordinates": {
+          "lon": 12.9805,
+          "lat": 57.7218
+        }
+      },
+      "sys": {
+        "id": "66SOV2Cd5Su0ic0y0yCAcA"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hisings Backa",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 11.9821,
+          "lat": 57.7478
+        }
+      },
+      "sys": {
+        "id": "60OCmAC4NyeCUWMOsQ4Y4U"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hjällbo",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 12.12061,
+          "lat": 57.461
+        }
+      },
+      "sys": {
+        "id": "zQSFTmTnl6mEiwEK0MM8u"
+      }
+    },
+    {
+      "fields": {
+        "title": " Holma/Kroksbäck/Bellevue",
+        "categoryDescription": "Malmö",
+        "zoneCoordinates": {
+          "lon": 12.9642,
+          "lat": 55.5781
+        }
+      },
+      "sys": {
+        "id": "1ASH2czLsYe2UQO644Y8QC"
+      }
+    },
+    {
+      "fields": {
+        "title": "Hovsjö",
+        "categoryDescription": "Södertälje",
+        "zoneCoordinates": {
+          "lon": 17.6056,
+          "lat": 59.1754
+        }
+      },
+      "sys": {
+        "id": "6k8D7ARWOAUoeyMacAEQKy"
+      }
+    },
+    {
+      "fields": {
+        "title": "Husby",
+        "categoryDescription": "Stockholm",
+        "zoneCoordinates": {
+          "lon": 17.9262805,
+          "lat": 59.409991
+        }
+      },
+      "sys": {
+        "id": "64Fq6xb7lm4I4kaeIgscmY"
+      }
+    },
+    {
+      "fields": {
+        "title": "Koppargården",
+        "categoryDescription": "Landskrona",
+        "zoneCoordinates": {
+          "lon": 12.8495,
+          "lat": 55.8895
+        }
+      },
+      "sys": {
+        "id": "62AZxjmj96M6EiWGSmIMWs"
+      }
+    },
+    {
+      "fields": {
+        "title": "Kronogården",
+        "categoryDescription": "Trollhättan",
+        "zoneCoordinates": {
+          "lon": 12.3081,
+          "lat": 58.2697
+        }
+      },
+      "sys": {
+        "id": "39AWumdcJyuiywIGYkSo88"
+      }
+    },
+    {
+      "fields": {
+        "title": "Lagersberg",
+        "categoryDescription": "Eskilstuna",
+        "zoneCoordinates": {
+          "lon": 16.4807,
+          "lat": 59.3529
+        }
+      },
+      "sys": {
+        "id": "1Yy6ZZEpJecsaaGM88YIQW"
+      }
+    },
+    {
+      "fields": {
+        "title": "Lövgärdet",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 12.0372,
+          "lat": 57.8158
+        }
+      },
+      "sys": {
+        "id": "6Of2UDsBZCw2W2ca8oC8sG"
+      }
+    },
+    {
+      "fields": {
+        "title": "Östberga",
+        "categoryDescription": "Stockholm",
+        "zoneCoordinates": {
+          "lon": 18.0356,
+          "lat": 59.2871
+        }
+      },
+      "sys": {
+        "id": "6CwakqmV6EC8gQUSyQoWWo"
+      }
+    },
+    {
+      "fields": {
+        "title": "Oxhagen/Varberga",
+        "categoryDescription": "Örebro",
+        "zoneCoordinates": {
+          "lon": 15.1752,
+          "lat": 59.2867
+        }
+      },
+      "sys": {
+        "id": "5n4PcVm3sI2siE8SuSYQk8"
+      }
+    },
+    {
+      "fields": {
+        "title": "Rannebergen",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 12.0711,
+          "lat": 57.8022
+        }
+      },
+      "sys": {
+        "id": "1kZaqwM51O4M4eSwoqmIka"
+      }
+    },
+    {
+      "fields": {
+        "title": "Råslätt",
+        "categoryDescription": "Jönköping",
+        "zoneCoordinates": {
+          "lon": 14.147966772460904,
+          "lat": 57.73751937176842
+        }
+      },
+      "sys": {
+        "id": "4wZl6sXp1CqmQGKaCGCU6i"
+      }
+    },
+    {
+      "fields": {
+        "title": "Rinkeby/Tensta",
+        "categoryDescription": "Stockholm",
+        "zoneCoordinates": {
+          "lon": 17.5543,
+          "lat": 59.2317
+        }
+      },
+      "sys": {
+        "id": "7oxJ22Iz0AKMEGQIsK8W6a"
+      }
+    },
+    {
+      "fields": {
+        "title": "Rissne/Hallonbergen",
+        "categoryDescription": "Sundbyberg",
+        "zoneCoordinates": {
+          "lon": 17.9513,
+          "lat": 59.3757
+        }
+      },
+      "sys": {
+        "id": "1t3OR609lWGmaA20AEEmoS"
+      }
+    },
+    {
+      "fields": {
+        "title": "Ronna/Geneta/Lina",
+        "categoryDescription": "Södertälje",
+        "zoneCoordinates": {
+          "lon": 17.589111,
+          "lat": 59.197219
+        }
+      },
+      "sys": {
+        "id": "5yHQLuvTNuQi4wsMCwom6Y"
+      }
+    },
+    {
+      "fields": {
+        "title": "Rosengård",
+        "categoryDescription": "Malmö",
+        "zoneCoordinates": {
+          "lon": 13.045674599999984,
+          "lat": 55.584091
+        }
+      },
+      "sys": {
+        "id": "688EzANmIE8IKqO4sigOKY"
+      }
+    },
+    {
+      "fields": {
+        "title": "Sångvägen",
+        "categoryDescription": "Järfälla",
+        "zoneCoordinates": {
+          "lon": 17.8342,
+          "lat": 59.4271
+        }
+      },
+      "sys": {
+        "id": "7a6NwvkiVaG4AAgCsC8g8g"
+      }
+    },
+    {
+      "fields": {
+        "title": "Seved",
+        "categoryDescription": "Malmö",
+        "zoneCoordinates": {
+          "lon": 13.0057,
+          "lat": 55.351845
+        }
+      },
+      "sys": {
+        "id": "3az2H4GqMwGeeIKuCWUq8I"
+      }
+    },
+    {
+      "fields": {
+        "title": "Skäggetorp",
+        "categoryDescription": "Linköping",
+        "zoneCoordinates": {
+          "lon": 15.5776,
+          "lat": 58.4278
+        }
+      },
+      "sys": {
+        "id": "2r1NCa5eO0kQIyMe6gi02U"
+      }
+    },
+    {
+      "fields": {
+        "title": "Skiftinge",
+        "categoryDescription": "Eskilstuna",
+        "zoneCoordinates": {
+          "lon": 16.53727854232784,
+          "lat": 59.390227600498726
+        }
+      },
+      "sys": {
+        "id": "d6Wim4qWRMuk0kiKIqe8u"
+      }
+    },
+    {
+      "fields": {
+        "title": "Skogås",
+        "categoryDescription": "Huddinge",
+        "zoneCoordinates": {
+          "lon": 18.1518,
+          "lat": 59.2188
+        }
+      },
+      "sys": {
+        "id": "fatWFeXuMwicKACswwqOC"
+      }
+    },
+    {
+      "fields": {
+        "title": "Smedby",
+        "categoryDescription": "Upplands Väsby",
+        "zoneCoordinates": {
+          "lon": 17.9118,
+          "lat": 59.5071
+        }
+      },
+      "sys": {
+        "id": "tvzdYFFS4CO6yI4kMSI6y"
+      }
+    },
+    {
+      "fields": {
+        "title": "Termovägen",
+        "categoryDescription": "Järfälla",
+        "zoneCoordinates": {
+          "lon": 17.82173,
+          "lat": 59.45483
+        }
+      },
+      "sys": {
+        "id": "2suBA9dBUwqKCGEs4QOWGW"
+      }
+    },
+    {
+      "fields": {
+        "title": "Tjärna ängar",
+        "categoryDescription": "Borlänge",
+        "zoneCoordinates": {
+          "lon": 15.40201,
+          "lat": 60.49365
+        }
+      },
+      "sys": {
+        "id": "3WPxFkpOLKCmQGSgaOMW2W"
+      }
+    },
+    {
+      "fields": {
+        "title": "Tureberg",
+        "categoryDescription": "Sollentuna",
+        "zoneCoordinates": {
+          "lon": 17.9367,
+          "lat": 59.4234
+        }
+      },
+      "sys": {
+        "id": "3m2NMfnre8Aug26csaQkKa"
+      }
+    },
+    {
+      "fields": {
+        "title": "Tynnered/Grevgården/Opaltorget",
+        "categoryDescription": "Göteborg",
+        "zoneCoordinates": {
+          "lon": 11.900627100000065,
+          "lat": 57.64073319999999
+        }
+      },
+      "sys": {
+        "id": "68ywtQEBsQuuUiskAe26Ia"
+      }
+    },
+    {
+      "fields": {
+        "title": "Vivalla",
+        "categoryDescription": "Örebro",
+        "zoneCoordinates": {
+          "lon": 15.1869884,
+          "lat": 59.2998949
+        }
+      },
+      "sys": {
+        "id": "3FvwsusAliGScYGiYcIqq6"
+      }
+    }
+  ]
+}
