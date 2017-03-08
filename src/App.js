@@ -17,20 +17,16 @@ var client = contentful.createClient({
   accessToken: ACCESS_TOKEN
 })
 
+const enterUrl = window.location.pathname !== "/" ? decodeURIComponent(window.location.pathname.substr(1)) : "Araby";
+
 class App extends Component {
 
     constructor(props, context) {
       super(props, context)
 
-      const zoneOnLoad = this.props.app.location.query.order || 25;
-
-      console.log(decodeURIComponent(window.location.pathname.substr(1)));
-
-                      var result = zones.items.find(function( obj ) {
-                          return obj.fields.title === decodeURIComponent(window.location.pathname.substr(1));
-                      });
-
-                      console.log(result, zones);
+      const result = zones.items.find(function( obj ) {
+          return obj.fields.title === enterUrl;
+      });
 
     this.state = {
         coordinates: [result.fields.zoneCoordinates.lat, result.fields.zoneCoordinates.lon],
@@ -40,21 +36,19 @@ class App extends Component {
         tips: [],
         zones: zones.items
     };
-    //   this.state = {
-    //       coordinates: [zones.items[zoneOnLoad].fields.zoneCoordinates.lat, zones.items[zoneOnLoad].fields.zoneCoordinates.lon],
-    //       zone: zones.items[zoneOnLoad].fields.title,
-    //       description: zones.items[zoneOnLoad].fields.categoryDescription,
-    //       zoneId: zones.items[zoneOnLoad].sys.id,
-    //       tips: [],
-    //       zones: []
-    //   };
+
     }
 
+    getObject(slug) {
+        zones.items.find(function( obj ) {
+            return obj.fields.title === slug
+        });
+    }
 
     componentDidMount() {
 
         const result = zones.items.find(function( obj ) {
-            return obj.fields.title === decodeURIComponent(window.location.pathname.substr(1));
+            return obj.fields.title === enterUrl
         });
 
         this.getTipsinZone(result.sys.id)
@@ -78,16 +72,7 @@ class App extends Component {
     //   })
     }
 
-    // componentDidUpdate(prevProps, prevState) {
-    //
-    //                 var result = zones.items.find(function( obj ) {
-    //                     return obj.fields.title === decodeURIComponent(this.props.app.location.pathname.substr(this.props.app.location.pathname.lastIndexOf('/') + 1));
-    //                 });
-    //
-    // }
-
     updateZone(i, zone) {
-
         if (i !== undefined) {
         this.setState({
                 coordinates: [zones.items[i].fields.zoneCoordinates.lat, zones.items[i].fields.zoneCoordinates.lon],
@@ -188,8 +173,7 @@ class App extends Component {
             {this.state.zones.map((zone, i) =>
                <Link key={i} to={{
                         pathname: `/${encodeURIComponent(zone.fields.title)}`}}
-
-                         onClick={() => this.updateZone(i, zone.sys.id)}
+                         onClick={() => this.updateZone(i, zone.sys.id) }
 
                    ><li className="zonelist-item" key={i} >
                    <div className="zonetitle regularText">
