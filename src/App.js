@@ -3,7 +3,8 @@ import logo from './logo.png';
 import './App.css';
 import SSGMap from './map.js';
 // import SSGPost from './post.js';
-import zones from './zones.json';
+import jsonloader from 'json-loader'
+import zones from '../public/zones.json';
 import contentful from 'contentful';
 import { Link } from 'react-router'
 
@@ -16,57 +17,77 @@ var client = contentful.createClient({
   accessToken: ACCESS_TOKEN
 })
 
- var allZones = zones;
-
 class App extends Component {
 
     constructor(props, context) {
       super(props, context)
 
-      const zoneOnLoad = this.props.app.location.query.order || 46;
+      const zoneOnLoad = this.props.app.location.query.order || 25;
 
+      console.log(decodeURIComponent(window.location.pathname.substr(1)));
 
-      this.state = {
-          coordinates: [zones.items[zoneOnLoad].fields.zoneCoordinates.lat, zones.items[zoneOnLoad].fields.zoneCoordinates.lon],
-          zone: zones.items[zoneOnLoad].fields.title,
-          description: zones.items[zoneOnLoad].fields.categoryDescription,
-          zoneId: zones.items[zoneOnLoad].sys.id,
-          tips: [],
-          zones: []
-      };
+                      var result = zones.items.find(function( obj ) {
+                          return obj.fields.title === decodeURIComponent(window.location.pathname.substr(1));
+                      });
+
+                      console.log(result, zones);
+
+    this.state = {
+        coordinates: [result.fields.zoneCoordinates.lat, result.fields.zoneCoordinates.lon],
+        zone: result.fields.title,
+        description: result.fields.categoryDescription,
+        zoneId: result.sys.id,
+        tips: [],
+        zones: zones.items
+    };
+    //   this.state = {
+    //       coordinates: [zones.items[zoneOnLoad].fields.zoneCoordinates.lat, zones.items[zoneOnLoad].fields.zoneCoordinates.lon],
+    //       zone: zones.items[zoneOnLoad].fields.title,
+    //       description: zones.items[zoneOnLoad].fields.categoryDescription,
+    //       zoneId: zones.items[zoneOnLoad].sys.id,
+    //       tips: [],
+    //       zones: []
+    //   };
     }
 
 
     componentDidMount() {
 
-        client.getEntries({
-            'content_type': '6XwpTaSiiI2Ak2Ww0oi6qa',
-             'order': 'fields.title'
-            }
-        )
-     .then((response) => {
-         console.log(response);
-          this.setState(
-              {zones: response.items}
-          );
-       this.getTipsinZone(this.props.app.location.query.id)
-      })
-      .catch((error) => {
-        console.log('Error occured')
-        console.log(error)
-      })
+        const result = zones.items.find(function( obj ) {
+            return obj.fields.title === decodeURIComponent(window.location.pathname.substr(1));
+        });
+
+        this.getTipsinZone(result.sys.id)
+
+    //     client.getEntries({
+    //         'content_type': '6XwpTaSiiI2Ak2Ww0oi6qa',
+    //          'order': 'fields.title',
+    //          'select': 'fields.title,fields.categoryDescription,fields.zoneCoordinates,sys.id'
+    //         }
+    //     )
+    //  .then((response) => {
+    //      console.log(response);
+    //       this.setState(
+    //           {zones: response.items}
+    //       );
+    //    this.getTipsinZone(this.props.app.location.query.id)
+    //   })
+    //   .catch((error) => {
+    //     console.log('Error occured')
+    //     console.log(error)
+    //   })
     }
 
-    sortArray(a,b) {
-        var nameA=a.fields.title.toLowerCase(), nameB=b.fields.title.toLowerCase()
-        if (nameA < nameB) //sort string ascending
-            return -1
-        if (nameA > nameB)
-            return 1
-        return 0
-    }
+    // componentDidUpdate(prevProps, prevState) {
+    //
+    //                 var result = zones.items.find(function( obj ) {
+    //                     return obj.fields.title === decodeURIComponent(this.props.app.location.pathname.substr(this.props.app.location.pathname.lastIndexOf('/') + 1));
+    //                 });
+    //
+    // }
 
     updateZone(i, zone) {
+
         if (i !== undefined) {
         this.setState({
                 coordinates: [zones.items[i].fields.zoneCoordinates.lat, zones.items[i].fields.zoneCoordinates.lon],
@@ -74,11 +95,17 @@ class App extends Component {
                 description: zones.items[i].fields.categoryDescription,
                 zoneId: zones.items[i].sys.id
             })
+
         }
         this.getTipsinZone(zone)
     }
 
     getTipsinZone(zone) {
+
+
+ //
+ // console.log(decodeURIComponent(zone.pathname.substr(zone.pathname.lastIndexOf('/') + 1)));
+
 
         client.getEntries({
             'content_type': 'tips',
@@ -103,6 +130,8 @@ class App extends Component {
 
   render() {
     const dontMiss = this.state.tips.length > 0;
+
+
 
     return (
     <div className="App">
@@ -158,10 +187,7 @@ class App extends Component {
             <ul className="zonelist">
             {this.state.zones.map((zone, i) =>
                <Link key={i} to={{
-                        pathname: `/zon/${encodeURIComponent(zone.fields.title)}`,
-                        query: { id: zone.sys.id,
-                                 order: i
-                        }}}
+                        pathname: `/${encodeURIComponent(zone.fields.title)}`}}
 
                          onClick={() => this.updateZone(i, zone.sys.id)}
 

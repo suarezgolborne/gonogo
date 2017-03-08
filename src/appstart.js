@@ -18,7 +18,7 @@ class AppStart extends Component {
       <Router history={browserHistory}>
         <Route path='/' component={Container}>
           <IndexRoute component={Home} />
-          <Route path='/zon(/:name)' component={Zone} />
+          <Route path='/:name' component={Zone} />
           <Route path='*' component={NotFound} />
         </Route>
       </Router>

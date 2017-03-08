@@ -13,7 +13,7 @@ class SSGMap extends React.Component {
 
 
     const map = (
-      <Map center={mapPosition} zoom={15} zoomControl={false} minZoom={15} maxZoom={15}>
+      <Map center={mapPosition} zoom={14} zoomControl={false} minZoom={14} maxZoom={14}>
         <TileLayer
         url='https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic3VhcmV6Z29sYm9ybmUiLCJhIjoiY2l6cXk4MXJkMDAxdzMzczdhZXNzNXN3bCJ9.nxxm26c-EUI5R_VtLHs6BQ'
 
